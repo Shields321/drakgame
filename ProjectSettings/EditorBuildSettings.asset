@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Zedtix/Scenes/Main Menu.unity
     guid: b60d578f99d40194cad4a9f8b25a3c73
   - enabled: 1
-    path: Assets/Zedtix/Scenes/1.unity
+    path: Assets/Zedtix/Scenes/OpeningCutscene.unity
+    guid: d32060f17446fc34f8360f0400690dd9
+  - enabled: 1
+    path: Assets/Zedtix/Scenes/Gameplay.unity
     guid: 5c665c615a7da5544baf73abfd744362
   m_configObjects: {}
