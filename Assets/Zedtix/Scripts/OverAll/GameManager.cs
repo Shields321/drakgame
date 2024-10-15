@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if(TextKill!=null)
-        TextKill.text = NumberOfKills.ToString();
+        TextKill.text = "Kills: " + NumberOfKills.ToString();
         if (Pause)
         {
             if(Panel!=null)

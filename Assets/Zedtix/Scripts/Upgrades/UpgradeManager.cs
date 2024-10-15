@@ -163,7 +163,7 @@ public class UpgradeManager : MonoBehaviour
     {
         if (OrbsObject != null)
         {
-            OrbsObject.GetComponent<Orbs>().SpawnOrb();
+            OrbsObject.GetComponent<AkashicRecords>().SpawnOrb();
 
         }
 
