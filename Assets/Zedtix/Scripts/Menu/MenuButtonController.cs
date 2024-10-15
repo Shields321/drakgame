@@ -16,7 +16,7 @@ public class MenuButtonController : MonoBehaviour
 	public GameObject UpgradeObject;
     public GameObject CreditsObject;
     public bool Pause, Settings = false;
-	public bool SettingsTwo = false;
+	public bool SettingsTwo,credits = false;
 	public bool Menu;
 
 	public GameObject CurntButton;
@@ -153,7 +153,16 @@ public class MenuButtonController : MonoBehaviour
 		SettingsObject.SetActive(false);
 		SettingsTwo = true;
 
-	}    
+	}
+    public void Credits()
+    {
+        CurntButton = CreditsButton;
+        EventSystem.current.SetSelectedGameObject(CurntButton);
+        CreditsObject.SetActive(true);
+        MaineMenuObject.SetActive(false);
+        credits = true;
+
+    }
 
 
     public void back()
@@ -220,7 +229,14 @@ public class MenuButtonController : MonoBehaviour
 			Settings = false;
 
 		}
-
+		else if (credits)
+		{
+            CurntButton = CreditsButton;
+            EventSystem.current.SetSelectedGameObject(CurntButton);
+            MaineMenuObject.SetActive(true);
+            CreditsObject.SetActive(false);
+            Settings = false;
+        }
 
 
 	}
