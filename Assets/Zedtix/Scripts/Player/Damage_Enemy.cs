@@ -5,9 +5,11 @@ using UnityEngine;
 public class Damage_Enemy : MonoBehaviour
 {
 
-    [SerializeField] private float Damge = 5;
+    [SerializeField] public float Damge = 5;
     private float StartWaitTime = 0.05f;
     private float WaitTime;
+    public float dmgIncrease=1;
+    public bool enemyHit = false;
 
     void Start()
     {
@@ -23,7 +25,8 @@ public class Damage_Enemy : MonoBehaviour
     {
         if (collision.tag == "Enemy" && WaitTime <= 0)
         {
-            collision.GetComponent<Enemy_Health>().TakeDamage(Damge);
+            enemyHit = true;
+            collision.GetComponent<Enemy_Health>().TakeDamage(Damge * dmgIncrease);
             WaitTime = StartWaitTime;
         }
     }

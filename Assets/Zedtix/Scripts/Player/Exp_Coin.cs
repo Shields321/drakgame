@@ -6,8 +6,8 @@ public class Exp_Coin : MonoBehaviour
 {
 
     [SerializeField] private float speed=3;
-    [SerializeField] private int Exp=20;
-    [SerializeField] private float Range = 5;
+    [SerializeField] public double Exp=20;
+    [SerializeField] public float Range = 5;
     private Transform player;
 
 

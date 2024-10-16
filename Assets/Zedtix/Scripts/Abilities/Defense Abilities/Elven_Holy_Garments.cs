@@ -2,20 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class upgradeManager : MonoBehaviour
+public class Elven_Holy_Garments : MonoBehaviour
 {
-    public int The_Demons_Enchantment_level = 1;
-    public int SwordSmith_Parry_level = 1;
-    public int Kiss_of_life_level = 1;
+    private PlayerHealth PlayerHealth;
+    public bool isAlive = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+        PlayerHealth = GetComponent<PlayerHealth>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (isAlive)
+            PlayerHealth.def = 15f;
     }
 }

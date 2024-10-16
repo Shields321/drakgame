@@ -4,13 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
-    public float MaxHealth = 100;
+    public float MaxHealth = 100;    
     private Animator animator;
     public float CurrentHealth;
     public bool Dashing = true;
     public Slider slider;
     public Vector3 SliderOffset;
     public bool IsDead;
+    public float def = 0f;
 
 
     // ******************** Flash Stuff*********************
@@ -58,7 +59,7 @@ public class PlayerHealth : MonoBehaviour
         if (!Dashing)
         {
             AudioManager.instance.PlaySound("Hurt");
-            CurrentHealth -= damage;
+            CurrentHealth -= Mathf.Max(damage-def,0);
             sethealth(CurrentHealth);
             Flash();
         }
