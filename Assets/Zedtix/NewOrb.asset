@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ced95ca00ea0fa4ab8b26e0666bf493, type: 3}
   m_Name: NewOrb
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 8c19a913238d85141812236f8543addb, type: 3}
-  Title: Ahri Orbs
-  Description: 
-  Upgarde: 6
+  Title: Akashic
+  Upgrade: 0
   Chance: 50

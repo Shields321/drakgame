@@ -1396,10 +1396,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dff687bd3f260f4ca171c8c0ba68956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Upgrade: {fileID: 11400000, guid: 15acc9f39c82d3f4ab74d3d3f4d86aec, type: 2}
+  Upgrade: {fileID: 11400000, guid: a7596bb19f18c0a40aff25228bf7f51d, type: 2}
   Title: {fileID: 424903964}
-  Description: {fileID: 1349347447}
-  Icon: {fileID: 0}
   UpgradeName: 
 --- !u!114 &438587873
 MonoBehaviour:
@@ -1703,21 +1701,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e5c5fafd704890f48955ad55cc09e455, type: 2}
   - {fileID: 11400000, guid: 3de82572370f9b746bb974258f8fd409, type: 2}
   - {fileID: 11400000, guid: cf3fceedde3442540af6cf25771cf2ac, type: 2}
-  - {fileID: 11400000, guid: 4e41a43f601d5464a8d882ce852419ed, type: 2}
-  - {fileID: 11400000, guid: be938aea2bb759649acb49b06aa62d93, type: 2}
-  - {fileID: 11400000, guid: 6546b45659e4e354c8c26712486b4c69, type: 2}
-  - {fileID: 11400000, guid: 15acc9f39c82d3f4ab74d3d3f4d86aec, type: 2}
   UpgadeUiObject:
   - {fileID: 1750811551}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 438587870}
+  - {fileID: 1560769309}
   UpgradeObject: {fileID: 1184154581}
   GenerateUpgrade: 0
   TurretObject: {fileID: 218431239}
   OrbsObject: {fileID: 1425276357}
   PlayerObject: {fileID: 413327557}
-  PetObject: {fileID: 792867510129761264, guid: f8a2992b1bd74ce4da6240c91719f617, type: 3}
-  RandomExplosionsObject: {fileID: 0}
 --- !u!1 &612457034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3701,10 +3693,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dff687bd3f260f4ca171c8c0ba68956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Upgrade: {fileID: 11400000, guid: 15acc9f39c82d3f4ab74d3d3f4d86aec, type: 2}
+  Upgrade: {fileID: 11400000, guid: 3de82572370f9b746bb974258f8fd409, type: 2}
   Title: {fileID: 1370115023}
-  Description: {fileID: 1232077044}
-  Icon: {fileID: 0}
   UpgradeName: 
 --- !u!114 &1560769312
 MonoBehaviour:
@@ -4875,7 +4865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7645007111897967756, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 11.8
+      value: 11.799988
       objectReference: {fileID: 0}
     - target: {fileID: 7645007111897967757, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_IsActive
@@ -4909,6 +4899,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 114.365
       objectReference: {fileID: 0}
+    - target: {fileID: 7645007112050736895, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: Icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645007112050736895, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: Upgrade
+      value: 
+      objectReference: {fileID: 11400000, guid: cf3fceedde3442540af6cf25771cf2ac, type: 2}
     - target: {fileID: 7645007112154795188, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
@@ -4948,6 +4946,10 @@ PrefabInstance:
     - target: {fileID: 7645007112584721384, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_Color.a
       value: 0.8509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645007112584721385, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -6.011963
       objectReference: {fileID: 0}
     - target: {fileID: 7645007112584721386, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_IsActive

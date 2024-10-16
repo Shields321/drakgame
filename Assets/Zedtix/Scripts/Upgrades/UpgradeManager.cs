@@ -21,9 +21,7 @@ public class UpgradeManager : MonoBehaviour
   
     [SerializeField] private GameObject TurretObject;
     [SerializeField] private GameObject OrbsObject;
-    [SerializeField] private GameObject PlayerObject;
-    [SerializeField] private GameObject PetObject;
-    [SerializeField] private GameObject RandomExplosionsObject;
+    [SerializeField] private GameObject PlayerObject;    
     private void Awake()
     {
         Instace = this;
@@ -87,7 +85,7 @@ public class UpgradeManager : MonoBehaviour
 
         // Calculate the total spawn chance for all objects
         foreach (UpgradeScriptableObject spawnInfo in UpgadeToSpawn)
-        {
+        {            
             totalSpawnChance += spawnInfo.Chance;
         }
 
@@ -149,15 +147,7 @@ public class UpgradeManager : MonoBehaviour
             //   TurretObject.SetActive(true);
             TurretObject.GetComponent<Turret>().bulletNumber++;
         }
-    }
-    public void RandomExplosions()
-    {
-        if (RandomExplosionsObject != null)
-        {
-            RandomExplosionsObject.GetComponent<RandomSpawner>().SpawnNumber++;
-
-        }
-    }
+    }    
 
     public void NewOrb()
     {
@@ -167,16 +157,7 @@ public class UpgradeManager : MonoBehaviour
 
         }
 
-    }
-    public void SpawnPet()
-    {
-        if (PlayerObject != null && PetObject != null)
-        {
-            GameObject PlayerPet = Instantiate(PetObject, PlayerObject.transform.position, Quaternion.identity);
-        }
-
-
-    }
+    }    
     public void AddHealth()
     {
 

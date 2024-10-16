@@ -8,12 +8,10 @@ using UnityEngine.UI;
 
 public class UpgradeScriptableObject : ScriptableObject
 {
-
-    public Sprite Icon;
-    public string Title;
-    public string Description;
-    public enum UpgardeEnum { SpawnPet, ExtraBullet, AddHealth, Heal, AddSpeed, AddDamge, NewOrb , AttackSpeed , ShootProjectile, RandomExplosions };
-    public UpgardeEnum Upgarde ;
+    
+    public string Title;    
+    public enum UpgradeEnum {AddHealth, Heal, AddSpeed, AddDamge, NewOrb , AttackSpeed , ShootProjectile };
+    public UpgradeEnum Upgrade;
     [Range(0,100)]
     public int Chance;
 

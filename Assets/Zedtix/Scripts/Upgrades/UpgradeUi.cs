@@ -8,9 +8,7 @@ public class UpgradeUi : MonoBehaviour
 {
     public UpgradeScriptableObject Upgrade;
 
-    [SerializeField] private TMP_Text Title;
-    [SerializeField] private TMP_Text Description;
-    [SerializeField] private Image Icon;
+    [SerializeField] private TMP_Text Title;    
     [SerializeField] private string UpgradeName;
 
     // Start is called before the first frame update
@@ -22,15 +20,17 @@ public class UpgradeUi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Title.text = Upgrade.Title;
-        Description.text = Upgrade.Description;
-        Icon.sprite = Upgrade.Icon;
-        UpgradeName = Upgrade.name;
-
+        if (Upgrade != null)
+        {
+            Title.text = Upgrade.Title;
+            //Description.text = Upgrade.Description;
+            //Icon.sprite = Upgrade.Icon;
+            UpgradeName = Upgrade.name;
+        }
     }
   public void UpgradeFunction()
     {
-        UpgradeManager.Instace.Invoke(Upgrade.Upgarde.ToString(),0);
+        UpgradeManager.Instace.Invoke(Upgrade.Upgrade.ToString(),0);
 
     }
 }
