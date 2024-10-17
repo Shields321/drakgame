@@ -4,25 +4,35 @@ using UnityEngine;
 
 public class Kiss_of_life : MonoBehaviour
 {
-    private Damage_Enemy Damage_Enemy;
-    private PlayerHealth PlayerHealth;
-    private upgradeManager upgradeManager;
-    private float[] healAmount = { 0.1f, 0.2f, 0.3f };
+    private Enemy_Health enemy_Health;
+    private PlayerHealth PlayerHealth;    
+    private float[] healAmount = { 0.3f, 0.6f, 0.9f };
+    public int Kiss_of_life_level = 0;
     public bool isActive = false;
     // Start is called before the first frame update
     void Start()
-    {
-        Damage_Enemy = GetComponent<Damage_Enemy>();
-        PlayerHealth = GetComponent<PlayerHealth>();
-        upgradeManager = GetComponent<upgradeManager>();
+    {        
+        GameObject heal = GameObject.FindWithTag("Player");
+        PlayerHealth = heal.GetComponent<PlayerHealth>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isActive & Damage_Enemy.enemyHit)
+        if (GameObject.FindWithTag("Enemy"))
         {
-            PlayerHealth.CurrentHealth += healAmount[upgradeManager.Kiss_of_life_level - 1];
+            GameObject isDamage = GameObject.FindWithTag("Enemy");
+            enemy_Health = isDamage.GetComponent<Enemy_Health>();
+            start_kissing();
+        }
+    }
+    public void start_kissing()
+    {
+        if (isActive & enemy_Health.isHitEnemy & PlayerHealth.CurrentHealth < PlayerHealth.MaxHealth)
+        {            
+            PlayerHealth.CurrentHealth = PlayerHealth.CurrentHealth + healAmount[Kiss_of_life_level-1];   
+            enemy_Health.isHitEnemy = false;
         }
     }
 }

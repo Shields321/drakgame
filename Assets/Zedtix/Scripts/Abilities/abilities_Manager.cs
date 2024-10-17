@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public abstract class abilitiesManager : MonoBehaviour
 {
     Elven_Holy_Garments Elven_Holy_Garments;
@@ -120,4 +120,4 @@ public abstract class abilitiesManager : MonoBehaviour
     {
         kiss_Of_Life.isActive = true;
     }
-}
+}*/

@@ -12,6 +12,8 @@ public class PlayerHealth : MonoBehaviour
     public Vector3 SliderOffset;
     public bool IsDead;
     public float def = 0f;
+    public int parry;
+    public int willCreate = 1;
 
 
     // ******************** Flash Stuff*********************
@@ -55,15 +57,17 @@ public class PlayerHealth : MonoBehaviour
    
     public void TakeDamage(float damage)
     {
-
-        if (!Dashing)
-        {
-            AudioManager.instance.PlaySound("Hurt");
-            CurrentHealth -= Mathf.Max(damage-def,0);
-            sethealth(CurrentHealth);
-            Flash();
+        AudioManager.instance.PlaySound("Hurt");
+        if (def != 0)
+        {            
+            CurrentHealth -= Mathf.Max(((damage*def)*parry)*willCreate, 0);            
         }
-
+        else
+        {            
+            CurrentHealth -= (damage*parry)*willCreate;            
+        }
+        sethealth(CurrentHealth);
+        Flash();
 
 
     }

@@ -126,6 +126,8 @@ MonoBehaviour:
   IsActived: 0
   flashMaterial: {fileID: 2100000, guid: 89cdae45751b4be49aa07c1090a4b4b5, type: 2}
   duration: 0.1
+  isHitEnemy: 0
+  dmgIncrease: 1
 --- !u!58 &7979239861218316740
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class Elven_Holy_Garments : MonoBehaviour
 {
-    private PlayerHealth PlayerHealth;
-    public bool isAlive = false;
+    private PlayerHealth PlayerHealth;    
     // Start is called before the first frame update
     void Start()
     {
-        PlayerHealth = GetComponent<PlayerHealth>();
+        GameObject playerHealth = GameObject.FindWithTag("Player");
+        PlayerHealth = playerHealth.GetComponent<PlayerHealth>();
     }
 
     // Update is called once per frame
-    void Update()
+    public void updateDef()
     {
-        if (isAlive)
-            PlayerHealth.def = 15f;
+        PlayerHealth.def = 0.5f;
     }
 }
