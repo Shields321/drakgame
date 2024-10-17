@@ -6,12 +6,12 @@ public class Exp_Coin : MonoBehaviour
 {
 
     [SerializeField] private float speed=3;
-    [SerializeField] public double Exp=20;
+    [SerializeField] public float Exp=20;
     [SerializeField] public float Range = 5;
     private Transform player;
 
+    private bool isApolloActive = false;
 
-  
     void Start()
     {
 
@@ -45,5 +45,9 @@ public class Exp_Coin : MonoBehaviour
             ObjectPoolingManager.instance.ReturnObjectToPool(gameObject);
 
         }
+    }
+    public void SetApolloActive(bool isActive)
+    {
+        isApolloActive = isActive;
     }
 }

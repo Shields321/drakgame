@@ -6,28 +6,46 @@ using UnityEngine;
 
 public class SwordSmith_Parry : MonoBehaviour
 {
-    private upgradeManager upgradeManager;
-    private Damge_Player Damge_Player;
+    private UpgradeManager upgradeManager;
+    private PlayerHealth Damge_Player;
     private int[] chance = {5,10,15,20,25,30 };
+    public int SwordSmith_Parry_level = 0;
     public bool isActive = false;
+    private float time = 3f;
+    private float timeab;
     // Start is called before the first frame update
     void Start()
     {
-        upgradeManager = GetComponent<upgradeManager>();
-        Damge_Player = GetComponent<Damge_Player>();
+        GameObject updateManager = GameObject.FindWithTag("Player");        
+        upgradeManager = updateManager.GetComponent<UpgradeManager>();
+        GameObject dmg = GameObject.FindWithTag("Player");
+        Damge_Player = dmg.GetComponent<PlayerHealth>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float value = UnityEngine.Random.Range(0,100);
-        if (value <= chance[upgradeManager.SwordSmith_Parry_level - 1])
-        {
-            Damge_Player.Damge = 0;
+        timeab += Time.deltaTime;
+        if (time < timeab) {
+            Deflect();
+            Debug.Log("Deflect");
+            timeab = 0f;
         }
-        else 
+    }
+    public void Deflect()
+    {
+        if (isActive)
         {
-            Damge_Player.Damge = 5;
-        }
+            float value = UnityEngine.Random.Range(0, 100);
+            if (value <= chance[SwordSmith_Parry_level - 1])
+            {
+                Damge_Player.parry = 0;
+                Debug.Log("Parry");
+            }  
+            else
+            {
+                Damge_Player.parry = 1;
+            }
+        }        
     }
 }

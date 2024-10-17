@@ -802,6 +802,13 @@ GameObject:
   - component: {fileID: 413327566}
   - component: {fileID: 413327567}
   - component: {fileID: 413327570}
+  - component: {fileID: 413327571}
+  - component: {fileID: 413327572}
+  - component: {fileID: 413327573}
+  - component: {fileID: 413327574}
+  - component: {fileID: 413327575}
+  - component: {fileID: 413327576}
+  - component: {fileID: 413327577}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -1134,6 +1141,9 @@ MonoBehaviour:
   slider: {fileID: 1143558657}
   SliderOffset: {x: 0, y: -0.45, z: 0}
   IsDead: 0
+  def: 0
+  parry: 1
+  willCreate: 1
   flashMaterial: {fileID: 2100000, guid: 4955b5625ec49c44489c311b6d6f965d, type: 2}
   duration: 0.1
 --- !u!114 &413327570
@@ -1148,12 +1158,101 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5f6ad3f7d97aff4aa57e7c6f85d47a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orbitSpeed: 150
-  circleRadius: 1
-  OrbObject: {fileID: 5253324911196893609, guid: 8f2c6742627d6ac4d87b1303dfc8ffab, type: 3}
-  AkashicRecordsNumber: 1
-  LastAngle: -60
-  angle: 0
+--- !u!114 &413327571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413327557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d15f256f0286241a7f9961d0745e07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &413327572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413327557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93157c5b4943e847a6e4e8a07c5631b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &413327573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413327557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49ba50c818ba7a4b9aec6212b083af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &413327574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413327557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca507c928d4d51419dbf56dc7b80cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordSmith_Parry_level: 0
+  isActive: 0
+--- !u!114 &413327575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413327557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96661369f82d22742a2843fb75260150, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Kiss_of_life_level: 0
+  isActive: 0
+--- !u!114 &413327576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413327557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0781707bd942afd44ae958d014eb0422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 2797327662496399954, guid: 015816eedfc05654caa1b7cd066d919a, type: 3}
+  playerTransform: {fileID: 413327560}
+  The_Demons_Enchantment_level: 0
+  isActive: 0
+  range: 0.5
+--- !u!114 &413327577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413327557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08e93be11acd83449831e22c8b1c5ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WOC_level: 0
+  isActive: 0
 --- !u!1 &415456474
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,7 +1340,7 @@ GameObject:
   - component: {fileID: 424903965}
   - component: {fileID: 424903964}
   m_Layer: 5
-  m_Name: Title
+  m_Name: CardTitle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1375,7 +1474,7 @@ GameObject:
   - component: {fileID: 438587875}
   - component: {fileID: 438587874}
   - component: {fileID: 438587873}
-  - component: {fileID: 438587872}
+  - component: {fileID: 438587876}
   m_Layer: 5
   m_Name: Card (1)
   m_TagString: Untagged
@@ -1404,21 +1503,6 @@ RectTransform:
   m_AnchoredPosition: {x: 5.0958, y: -6.2}
   m_SizeDelta: {x: 599.0928, y: 92.024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &438587872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438587870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dff687bd3f260f4ca171c8c0ba68956, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Upgrade: {fileID: 0}
-  Title: {fileID: 424903964}
-  UpgradeName: 
 --- !u!114 &438587873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1463,9 +1547,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 549850746}
-        m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
-        m_MethodName: Close
+      - m_Target: {fileID: 438587876}
+        m_TargetAssemblyTypeName: UpgradeUi, Assembly-CSharp
+        m_MethodName: UpgradeFunction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1475,9 +1559,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 438587872}
-        m_TargetAssemblyTypeName: UpgradeUi, Assembly-CSharp
-        m_MethodName: UpgradeFunction
+      - m_Target: {fileID: 549850746}
+        m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
+        m_MethodName: Close
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1525,6 +1609,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438587870}
   m_CullTransparentMesh: 1
+--- !u!114 &438587876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438587870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33d0bf9836900346a9058678f316161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Upgrade: {fileID: 11400000, guid: d653cf00f118c264a9712e6054c6f029, type: 2}
+  Title: {fileID: 424903964}
+  Description: {fileID: 1349347447}
+  Icon: {fileID: 0}
+  UpgradeName: The_Frontline_mage
 --- !u!1 &549850734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,7 +1665,7 @@ MonoBehaviour:
   Damge: 0
   ExpBoost: 0
   TextKill: {fileID: 867200388}
-  Abilities_atk: {fileID: 0}
+  Abilities_atk: {fileID: 1170443475}
   Abilities_def: {fileID: 0}
   NumberOfKills: 0
   Panel: {fileID: 163008177}
@@ -1709,30 +1810,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 549850734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faf130049f4f2414d828b04e59b34218, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e45618542c110640be07f44af2a0c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxExp: 25
+  MaxExp: 15
   CurrentExp: 0
   ExpBar: {fileID: 2057505698}
+  PlayerObject: {fileID: 413327557}
   UpgadeToSpawn:
-  - {fileID: 11400000, guid: 6f27ff3e87d1f244ea48ca1940aaa0e8, type: 2}
-  - {fileID: 11400000, guid: a7596bb19f18c0a40aff25228bf7f51d, type: 2}
-  - {fileID: 11400000, guid: df4f0946cfefdf844a282244a55eb3a6, type: 2}
-  - {fileID: 11400000, guid: 87c9be0e5ab466f4097d002e5822e178, type: 2}
-  - {fileID: 11400000, guid: e5c5fafd704890f48955ad55cc09e455, type: 2}
-  - {fileID: 11400000, guid: 3de82572370f9b746bb974258f8fd409, type: 2}
-  - {fileID: 11400000, guid: cf3fceedde3442540af6cf25771cf2ac, type: 2}
-  - {fileID: 11400000, guid: 6546b45659e4e354c8c26712486b4c69, type: 2}
+  - {fileID: 11400000, guid: 49e13737bb8a4494ca1e27b64c7cf701, type: 2}
+  - {fileID: 11400000, guid: d7a492285be8e6f409667d1ffe0ab29f, type: 2}
+  - {fileID: 11400000, guid: d653cf00f118c264a9712e6054c6f029, type: 2}
+  - {fileID: 11400000, guid: 01ece65992f4544478720265681986fa, type: 2}
+  - {fileID: 11400000, guid: 587dbf2b38c01ff44a71aa0410a8af22, type: 2}
+  - {fileID: 11400000, guid: 8695f973d87e24742be8397b8fc4632c, type: 2}
+  - {fileID: 11400000, guid: aa7b36800de77d24dbe21bf31f7956bc, type: 2}
+  - {fileID: 11400000, guid: c3734451204c40347a87fae420108334, type: 2}
   UpgadeUiObject:
   - {fileID: 1750811551}
   - {fileID: 438587870}
   - {fileID: 1560769309}
   UpgradeObject: {fileID: 1184154581}
   GenerateUpgrade: 0
-  TurretObject: {fileID: 218431239}
-  OrbsObject: {fileID: 1425276357}
-  PlayerObject: {fileID: 413327557}
+  the_Demons_Enchantment: {fileID: 0}
+  the_Will_Of_A_Creator: {fileID: 0}
 --- !u!1 &612457034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3128,7 +3229,7 @@ GameObject:
   - component: {fileID: 1232077045}
   - component: {fileID: 1232077044}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: CardText2 (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3250,6 +3351,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232077042}
   m_CullTransparentMesh: 1
+--- !u!114 &1242752165 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7645007111809351028, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+  m_PrefabInstance: {fileID: 7645007112724364635}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1331778268
 GameObject:
   m_ObjectHideFlags: 0
@@ -3392,7 +3504,7 @@ GameObject:
   - component: {fileID: 1349347448}
   - component: {fileID: 1349347447}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: CardText1 (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3526,7 +3638,7 @@ GameObject:
   - component: {fileID: 1370115024}
   - component: {fileID: 1370115023}
   m_Layer: 5
-  m_Name: Title
+  m_Name: CardTitle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3794,10 +3906,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 636c3ec13fa0cc044b7bff9cd4e04117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrbObject: {fileID: 8800286586871075592, guid: ae5fe4db9addab84482b7864e1dae7ff, type: 3}
-  AkashicRecordsNumber: 0
-  LastAngle: -60
-  isActive: 0
 --- !u!1 &1560769309
 GameObject:
   m_ObjectHideFlags: 0
@@ -3810,7 +3918,7 @@ GameObject:
   - component: {fileID: 1560769314}
   - component: {fileID: 1560769313}
   - component: {fileID: 1560769312}
-  - component: {fileID: 1560769311}
+  - component: {fileID: 1560769315}
   m_Layer: 5
   m_Name: Card (2)
   m_TagString: Untagged
@@ -3839,21 +3947,6 @@ RectTransform:
   m_AnchoredPosition: {x: 5.0958, y: -123.8}
   m_SizeDelta: {x: 599.0928, y: 92.024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1560769311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560769309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dff687bd3f260f4ca171c8c0ba68956, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Upgrade: {fileID: 0}
-  Title: {fileID: 1370115023}
-  UpgradeName: 
 --- !u!114 &1560769312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3898,9 +3991,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 549850746}
-        m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
-        m_MethodName: Close
+      - m_Target: {fileID: 1560769315}
+        m_TargetAssemblyTypeName: UpgradeUi, Assembly-CSharp
+        m_MethodName: UpgradeFunction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3910,9 +4003,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1560769311}
-        m_TargetAssemblyTypeName: UpgradeUi, Assembly-CSharp
-        m_MethodName: UpgradeFunction
+      - m_Target: {fileID: 549850746}
+        m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
+        m_MethodName: Close
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3960,6 +4053,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560769309}
   m_CullTransparentMesh: 1
+--- !u!114 &1560769315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560769309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33d0bf9836900346a9058678f316161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Upgrade: {fileID: 11400000, guid: 49e13737bb8a4494ca1e27b64c7cf701, type: 2}
+  Title: {fileID: 1370115023}
+  Description: {fileID: 1232077044}
+  Icon: {fileID: 0}
+  UpgradeName: The_Will_of_a_Creator
 --- !u!224 &1575047112 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7645007111897967756, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
@@ -3996,6 +4106,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1998544746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1606362991 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7645007112800853578, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+  m_PrefabInstance: {fileID: 7645007112724364635}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1728535153
 GameObject:
   m_ObjectHideFlags: 0
@@ -4107,6 +4228,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7645007112050736836, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
   m_PrefabInstance: {fileID: 7645007112724364635}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1750811557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750811551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33d0bf9836900346a9058678f316161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Upgrade: {fileID: 11400000, guid: 01ece65992f4544478720265681986fa, type: 2}
+  Title: {fileID: 1606362991}
+  Description: {fileID: 1242752165}
+  Icon: {fileID: 0}
+  UpgradeName: SwordSmith_Parry
 --- !u!1 &1854748403
 GameObject:
   m_ObjectHideFlags: 0
@@ -5021,6 +5159,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.20000076
       objectReference: {fileID: 0}
+    - target: {fileID: 7645007111809351030, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: m_Name
+      value: CardText (TMP)
+      objectReference: {fileID: 0}
     - target: {fileID: 7645007111897967756, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 11.799988
@@ -5034,12 +5176,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 549850746}
     - target: {fileID: 7645007112050736890, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1750811557}
+    - target: {fileID: 7645007112050736890, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Close
       objectReference: {fileID: 0}
     - target: {fileID: 7645007112050736890, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpgradeFunction
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645007112050736890, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UpgradeManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645007112050736890, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UpgradeUi, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7645007112050736891, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_SizeDelta.x
@@ -5140,6 +5294,10 @@ PrefabInstance:
     - target: {fileID: 7645007112800853579, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 71.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645007112800853588, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: m_Name
+      value: CardTitle
       objectReference: {fileID: 0}
     - target: {fileID: 7645007113186534641, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_Name
@@ -5261,7 +5419,8 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: UpgradeManager, Assembly-CSharp
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7645007112050736895, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
     m_RemovedGameObjects:
     - {fileID: 7645007113563772368, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
     - {fileID: 7645007113239651313, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
@@ -5280,7 +5439,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7645007111693401731, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1560769310}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7645007112050736836, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1750811557}
   m_SourcePrefab: {fileID: 100100000, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

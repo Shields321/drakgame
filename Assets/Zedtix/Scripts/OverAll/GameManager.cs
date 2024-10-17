@@ -18,13 +18,13 @@ public class GameManager : MonoBehaviour
     public TMP_Text Abilities_def;
     public int NumberOfKills;
     public GameObject Panel;  
-    private UpgradeManager upgradeManager;
+    private UpgradeManager UpgradeManager;
 
     private void Awake()
     {
         if (Instance != null)
         {
-            upgradeManager = GetComponent<UpgradeManager>();
+            UpgradeManager = GetComponent<UpgradeManager>();
             Debug.LogError("More than one GameManger in scene");
         }
         else
@@ -34,18 +34,9 @@ public class GameManager : MonoBehaviour
     }
 
     void Update()
-    {
-        List<UpgradeScriptableObject> objects = upgradeManager.GetUpgradeScriptableObjects();
+    {        
         if (TextKill!=null)
-            TextKill.text = "Kills: " + NumberOfKills.ToString();
-        if (objects != null)
-        {
-            string text = "Attack Abilities: ";
-            foreach (UpgradeScriptableObject obj in objects) {
-                text += obj.Title+", ";
-            }
-            Abilities_atk.text = text;
-        }
+            TextKill.text = "Kills: " + NumberOfKills.ToString();        
         if (Pause)
         {
             if(Panel!=null)

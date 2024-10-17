@@ -21,7 +21,8 @@ public class Enemy_Health : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Material originalMaterial;
     private Coroutine flashRoutine;
-
+    public bool isHitEnemy = false;
+    public float dmgIncrease = 1;
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -58,6 +59,9 @@ public class Enemy_Health : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        isHitEnemy = true;
+        damage *= dmgIncrease; 
+        Debug.Log("Damage: "+damage);
         health -= damage;
         if(GetComponent<Enemy_Movement>()!=null)
         GetComponent<Enemy_Movement>().NockBackTime = .2f;
@@ -70,7 +74,7 @@ public class Enemy_Health : MonoBehaviour
             Text.GetComponent<TMP_Text>().text = damage.ToString();
         }
         if(flashMaterial!=null)
-        Flash();
+        Flash();        
     }
 
     public void Flash()

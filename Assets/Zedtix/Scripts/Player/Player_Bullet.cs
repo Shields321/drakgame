@@ -10,6 +10,7 @@ public class Player_Bullet : MonoBehaviour
     private Rigidbody2D rb;
     public float force;
     public GameObject Paint_Splatter;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -33,8 +34,7 @@ public class Player_Bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Enemy")
-        {
-
+        {            
             collision.gameObject.GetComponent<Enemy_Health>().TakeDamage(Damage);
             /*if (collision.GetComponent<Enemy_Health>() != null)
                 collision.GetComponent<Enemy_Health>().TakeDamage(Damage);*/

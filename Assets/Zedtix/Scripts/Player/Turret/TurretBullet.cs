@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TurretBullet : MonoBehaviour
 {
-    [SerializeField] float speed = 5.0f, damage = 5;
+    [SerializeField] public float speed = 5.0f, damage = 5;
    [HideInInspector] public Transform EnemyPosition;
     Vector3 direction;
     [SerializeField] private bool IsActived = true;
