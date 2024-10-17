@@ -808,6 +808,7 @@ GameObject:
   - component: {fileID: 413327574}
   - component: {fileID: 413327575}
   - component: {fileID: 413327576}
+  - component: {fileID: 413327577}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -1142,6 +1143,7 @@ MonoBehaviour:
   IsDead: 0
   def: 0
   parry: 1
+  willCreate: 1
   flashMaterial: {fileID: 2100000, guid: 4955b5625ec49c44489c311b6d6f965d, type: 2}
   duration: 0.1
 --- !u!114 &413327570
@@ -1236,7 +1238,21 @@ MonoBehaviour:
   playerTransform: {fileID: 413327560}
   The_Demons_Enchantment_level: 0
   isActive: 0
-  range: 5
+  range: 0.5
+--- !u!114 &413327577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413327557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08e93be11acd83449831e22c8b1c5ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WOC_level: 0
+  isActive: 0
 --- !u!1 &415456474
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,6 +1833,7 @@ MonoBehaviour:
   UpgradeObject: {fileID: 1184154581}
   GenerateUpgrade: 0
   the_Demons_Enchantment: {fileID: 0}
+  the_Will_Of_A_Creator: {fileID: 0}
 --- !u!1 &612457034
 GameObject:
   m_ObjectHideFlags: 0
