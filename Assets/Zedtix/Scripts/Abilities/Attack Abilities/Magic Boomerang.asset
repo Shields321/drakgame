@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0feea79b123fee349aba41ac39d54de1, type: 3}
-  m_Name: Semblence_of_polatrity
+  m_Name: Magic Boomerang
   m_EditorClassIdentifier: 
-  Title: Semblance of Polarity
+  Title: Magic Boomerang
   Description: 
-  Upgarde: 5
-  Chance: 33
+  Upgarde: 11
+  Chance: 0

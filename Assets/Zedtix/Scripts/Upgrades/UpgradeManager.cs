@@ -124,6 +124,8 @@ public class UpgradeManager : MonoBehaviour
     {
         CurrentExp += Exp;
     }
+
+    //defence abilities
     public void The_Demons_Enchantment()
     {
         GameObject TDE = GameObject.FindWithTag("Player");
@@ -175,5 +177,42 @@ public class UpgradeManager : MonoBehaviour
     public void The_Frontline_mage()
     {
         PlayerObject.GetComponent<The_Frontline_mage>().doubleStats();
+    }
+    public void Semblence_of_polatrity()
+    {
+        PlayerObject.GetComponent<Semblence_of_polatrity>().increaseExpRange();
+    }
+    //Attack abilities
+    public void Beam_of_the_Majin()
+    {
+        
+    }
+    public void Dragons_Breath()
+    {
+        
+    }
+    public void Dryads_Aura()
+    {
+       
+    }
+    public void Magic_Boomerang()
+    {
+        
+    }
+    public void Magic_Homunculus()
+    {
+        
+    }
+    public void Tentacles_of_the_Abyss()
+    {
+        
+    }
+    public void the_Akashic_Records()
+    {
+        
+    }
+    public void Thorns_of_the_Great_Forest()
+    {
+        
     }
 }
