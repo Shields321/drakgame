@@ -801,7 +801,6 @@ GameObject:
   - component: {fileID: 413327564}
   - component: {fileID: 413327566}
   - component: {fileID: 413327567}
-  - component: {fileID: 413327570}
   - component: {fileID: 413327571}
   - component: {fileID: 413327572}
   - component: {fileID: 413327573}
@@ -926,10 +925,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movmentSpeed: 5
-  dashSpeed: 0
-  dashForce: 35
-  cooltime: 1
-  Dashing: 0
 --- !u!61 &413327564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1135,29 +1130,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f11aa4acb322104db43584d2c47d981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 50
+  MaxHealth: 100
   CurrentHealth: 0
-  Dashing: 1
   slider: {fileID: 1143558657}
-  SliderOffset: {x: 0, y: -0.45, z: 0}
+  SliderOffset: {x: 0, y: 0.75, z: 0}
   IsDead: 0
   def: 0
   parry: 1
   willCreate: 1
   flashMaterial: {fileID: 2100000, guid: 4955b5625ec49c44489c311b6d6f965d, type: 2}
   duration: 0.1
---- !u!114 &413327570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413327557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5f6ad3f7d97aff4aa57e7c6f85d47a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &413327571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1640,6 +1622,7 @@ GameObject:
   - component: {fileID: 549850742}
   - component: {fileID: 549850743}
   - component: {fileID: 549850746}
+  - component: {fileID: 549850747}
   m_Layer: 0
   m_Name: GameManger
   m_TagString: Untagged
@@ -1834,6 +1817,23 @@ MonoBehaviour:
   GenerateUpgrade: 0
   the_Demons_Enchantment: {fileID: 0}
   the_Will_Of_A_Creator: {fileID: 0}
+--- !u!114 &549850747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549850734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d797ef8aa75a7ab4a93231ea543fe4e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 4857742709815181338, guid: 5f7e05c755299794db1380cf7418c8ee, type: 3}
+  spawnCenter: {fileID: 549850736}
+  spawnRadius: 20
+  StartTimer: 20
+  SpawnNumber: 1
 --- !u!1 &612457034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3991,7 +3991,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: -1
@@ -5426,7 +5426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7645007111693401742, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7645007111809351028, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_text

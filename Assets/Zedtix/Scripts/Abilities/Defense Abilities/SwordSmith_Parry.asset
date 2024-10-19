@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0feea79b123fee349aba41ac39d54de1, type: 3}
   m_Name: SwordSmith_Parry
   m_EditorClassIdentifier: 
-  Title: SwordSmith_Parry
+  Title: Swordsmith's Parry
   Description: 
   Upgarde: 4
   Chance: 33

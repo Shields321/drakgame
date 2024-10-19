@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0feea79b123fee349aba41ac39d54de1, type: 3}
   m_Name: Kiss_of_life
   m_EditorClassIdentifier: 
-  Title: Kiss_of_life
+  Title: Kiss of Life
   Description: 
   Upgarde: 6
   Chance: 0

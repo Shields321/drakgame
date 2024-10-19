@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0feea79b123fee349aba41ac39d54de1, type: 3}
   m_Name: Apollos_Prophecy
   m_EditorClassIdentifier: 
-  Title: Apollos_Prophecy
+  Title: Apollo's Prophecy
   Description: 
   Upgarde: 0
-  Chance: 0
+  Chance: 100

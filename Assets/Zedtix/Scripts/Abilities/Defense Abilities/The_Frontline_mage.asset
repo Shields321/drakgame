@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0feea79b123fee349aba41ac39d54de1, type: 3}
   m_Name: The_Frontline_mage
   m_EditorClassIdentifier: 
-  Title: The_Frontline_mage
+  Title: The Frontline Mage
   Description: 
   Upgarde: 2
   Chance: 0

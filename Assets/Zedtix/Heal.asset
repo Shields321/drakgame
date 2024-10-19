@@ -9,11 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ced95ca00ea0fa4ab8b26e0666bf493, type: 3}
+  m_Script: {fileID: 11500000, guid: 98c6cd83086a9ce47b2d514d4db23408, type: 3}
   m_Name: Heal
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 8e3a397a88afa03448efcc7427bb42da, type: 3}
-  Title: Heal 20Hp
-  Description: 
-  Upgarde: 3
-  Chance: 5
+  HealAmount: 10

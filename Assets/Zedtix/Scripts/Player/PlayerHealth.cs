@@ -7,7 +7,6 @@ public class PlayerHealth : MonoBehaviour
     public float MaxHealth = 100;    
     private Animator animator;
     public float CurrentHealth;
-    public bool Dashing = true;
     public Slider slider;
     public Vector3 SliderOffset;
     public bool IsDead;
@@ -35,7 +34,6 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
         slider.transform.position = Camera.main.WorldToScreenPoint(transform.position + SliderOffset);
-        Dashing = GetComponent<Player_Controller>().Dashing;
         if (CurrentHealth <= 0)
         {
             IsDead = true;

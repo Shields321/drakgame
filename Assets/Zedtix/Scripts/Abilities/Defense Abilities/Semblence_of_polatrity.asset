@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0feea79b123fee349aba41ac39d54de1, type: 3}
   m_Name: Semblence_of_polatrity
   m_EditorClassIdentifier: 
-  Title: Semblence_of_polatrity
+  Title: Semblance of Polarity
   Description: 
   Upgarde: 5
   Chance: 0
