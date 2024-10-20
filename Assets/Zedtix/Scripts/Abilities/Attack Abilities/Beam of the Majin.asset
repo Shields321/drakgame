@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Beam of the Majin
   m_EditorClassIdentifier: 
   Title: Beam of the Majin
-  Description: 
+  Description: Aim and Fire a straight beam towards the enemy. Has 6 Levels. Scales
+    by DMG and Size.
   Upgarde: 8
   Chance: 0

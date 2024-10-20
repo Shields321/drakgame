@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Magic Boomerang
   m_EditorClassIdentifier: 
   Title: Magic Boomerang
-  Description: 
+  Description: Shoot a projectile out from the player before returning, dealing damage
+    to any enemies hit. Has 6 Levels. Scales by DMG.
   Upgarde: 11
   Chance: 33

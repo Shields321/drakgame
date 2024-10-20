@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Semblence_of_polatrity
   m_EditorClassIdentifier: 
   Title: Semblance of Polarity
-  Description: 
+  Description: Increases the range that you are able to pick up EXP Gems. Has 1 Level.
+    Does not Scale.
   Upgarde: 5
   Chance: 0

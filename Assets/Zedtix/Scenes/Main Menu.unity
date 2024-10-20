@@ -179,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Credits to be added
+  m_text: Credits to be added.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
   m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
@@ -667,7 +667,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 99.99998}
+  m_AnchoredPosition: {x: 70, y: 571}
   m_SizeDelta: {x: -3962, y: -2581.4602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &574642751
@@ -690,7 +690,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Graphics to be added
+  m_text: 'Keybinds:
+
+
+    W - Move Up
+
+    S - Move Down
+
+    A - Love Left
+
+    D
+    - Move Right
+
+    LMB - Click Buttons/Select Ability
+
+    ESC - Pause Game
+
+
+
+    Further
+    Graphics Settings to be added.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
   m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
@@ -699,7 +718,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1218,6 +1237,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7645007111522179033, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7645007111533537035, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1305,6 +1328,14 @@ PrefabInstance:
     - target: {fileID: 7645007112043774160, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.r
       value: 0.17254901
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645007112043774161, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645007112043774161, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1491
       objectReference: {fileID: 0}
     - target: {fileID: 7645007112043774167, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_Sprite

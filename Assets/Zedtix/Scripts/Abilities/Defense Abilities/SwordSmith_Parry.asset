@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SwordSmith_Parry
   m_EditorClassIdentifier: 
   Title: Swordsmith's Parry
-  Description: 
+  Description: Upon being hit by an enemy, there is a chance to negate that hit.
+    Has 6 Levels. Scales by Percentage Chance.
   Upgarde: 4
   Chance: 0

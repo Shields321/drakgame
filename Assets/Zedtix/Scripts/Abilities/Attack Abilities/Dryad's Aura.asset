@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Dryad's Aura
   m_EditorClassIdentifier: 
   Title: Dryad's Aura
-  Description: 
+  Description: Summons an AoE around the player, dealing damage to enemies over time.
+    Has 6 Levels. Scales by Size.
   Upgarde: 10
   Chance: 33

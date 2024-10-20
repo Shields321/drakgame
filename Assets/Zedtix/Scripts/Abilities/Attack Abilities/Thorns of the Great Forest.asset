@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Thorns of the Great Forest
   m_EditorClassIdentifier: 
   Title: Thorns of the Great Forest
-  Description: 
+  Description: Whenever getting hit by an enemy, return some damage to them. Has
+    1 Level. Does not Scale.
   Upgarde: 15
   Chance: 0

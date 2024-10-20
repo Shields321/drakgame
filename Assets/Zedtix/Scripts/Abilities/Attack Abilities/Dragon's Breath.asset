@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Dragon's Breath
   m_EditorClassIdentifier: 
   Title: Dragon's Breath
-  Description: 
+  Description: Fires a Powerful Beam in random directions. Has 3 Levels. Scales by
+    Beam Amount.
   Upgarde: 9
   Chance: 0

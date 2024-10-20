@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Elven_Holy_Garments
   m_EditorClassIdentifier: 
   Title: Elven Holy Garments
-  Description: 
+  Description: Decreases the overall damage taken by the player. Has 1 Level. Does
+    not Scale.
   Upgarde: 7
   Chance: 0

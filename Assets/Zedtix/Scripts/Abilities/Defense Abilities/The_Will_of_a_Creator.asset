@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: The_Will_of_a_Creator
   m_EditorClassIdentifier: 
   Title: The Will of a Creator
-  Description: 
+  Description: Become invincible for a set amount of time when reaching a certain
+    amount of HP. Has 3 Levels. Scales in Duration.
   Upgarde: 1
   Chance: 0

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Kiss_of_life
   m_EditorClassIdentifier: 
   Title: Kiss of Life
-  Description: 
+  Description: Heal a small amount of HP when hitting an enemy with your basic attack.
+    Has 3 Levels. Scales by Healing Amount.
   Upgarde: 6
   Chance: 0

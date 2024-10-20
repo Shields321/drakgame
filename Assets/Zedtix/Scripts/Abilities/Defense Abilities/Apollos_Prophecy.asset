@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Apollos_Prophecy
   m_EditorClassIdentifier: 
   Title: Apollo's Prophecy
-  Description: 
+  Description: Increases the amount of EXP gained from picking up EXP Gems. Has 1
+    Level. Does not Scale.
   Upgarde: 0
   Chance: 0
