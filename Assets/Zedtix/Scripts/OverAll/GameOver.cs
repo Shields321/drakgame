@@ -35,9 +35,10 @@ public class GameOver : MonoBehaviour
     {
         if(Panel!=null)
         Panel.SetActive(true);
+        Time.timeScale = 0;
         GameManager.Instance.Pause = true;
         TimerText.text = "Time: "+Timer.text;
-        KillsText.text = "Kills: "+ Kills.text;
+        KillsText.text = Kills.text;
         GameManager.Instance.Pause = true;
        
     }

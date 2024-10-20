@@ -23,15 +23,13 @@ public class The_Will_of_a_Creator : MonoBehaviour
     }
     public void WillOFGod()
     {
-        time += Time.deltaTime;
-        Debug.Log(time);
+        time += Time.deltaTime;        
         if (isActive && playerHealth.CurrentHealth <= 15)
         {
             
             if (time <= duration[WOC_level])
             {
-                playerHealth.willCreate = 0;
-                Debug.Log("Invis: " + playerHealth.willCreate);
+                playerHealth.willCreate = 0;                
                     
             }
             else 

@@ -19,7 +19,6 @@ public class Apollos_Prophecy : MonoBehaviour
     }    
     public void increaseExpGain()
     {
-        Exp_Coin.Exp += (Exp_Coin.Exp * 0.2f);
-        Debug.Log(Exp_Coin.Exp);
+        Exp_Coin.Exp += (Exp_Coin.Exp * 0.2f);        
     }
 }

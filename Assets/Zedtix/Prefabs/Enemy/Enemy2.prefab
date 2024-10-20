@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7735055831774027553}
   - component: {fileID: -8358198339041621386}
   - component: {fileID: 7979239861218316740}
+  - component: {fileID: 5856383017920484441}
   m_Layer: 0
   m_Name: Enemy2
   m_TagString: Enemy
@@ -107,7 +108,7 @@ MonoBehaviour:
   chasing: 0
   can_shoot: 0
   run: 0
-  NockBackTime: 0
+  NockBackTime: 0.2
 --- !u!114 &-8358198339041621386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,7 +127,7 @@ MonoBehaviour:
   IsActived: 0
   flashMaterial: {fileID: 2100000, guid: 89cdae45751b4be49aa07c1090a4b4b5, type: 2}
   duration: 0.1
-  isHitEnemy: 0
+  isHitEnemy: 1
   dmgIncrease: 1
 --- !u!58 &7979239861218316740
 CircleCollider2D:
@@ -163,6 +164,33 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.34285715
+--- !u!50 &5856383017920484441
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2797327662496399954}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7444434336082569127
 GameObject:
   m_ObjectHideFlags: 0

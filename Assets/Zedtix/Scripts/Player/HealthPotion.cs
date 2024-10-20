@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RedPotion : MonoBehaviour
+public class HealthPotion : MonoBehaviour
 {
     public float HealAmount = 10;
     // Start is called before the first frame update

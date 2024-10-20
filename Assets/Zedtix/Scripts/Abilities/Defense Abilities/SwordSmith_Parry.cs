@@ -27,8 +27,7 @@ public class SwordSmith_Parry : MonoBehaviour
     {
         timeab += Time.deltaTime;
         if (time < timeab) {
-            Deflect();
-            Debug.Log("Deflect");
+            Deflect();            
             timeab = 0f;
         }
     }
@@ -39,8 +38,7 @@ public class SwordSmith_Parry : MonoBehaviour
             float value = UnityEngine.Random.Range(0, 100);
             if (value <= chance[SwordSmith_Parry_level - 1])
             {
-                Damge_Player.parry = 0;
-                Debug.Log("Parry");
+                Damge_Player.parry = 0;                
             }  
             else
             {

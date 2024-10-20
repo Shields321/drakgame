@@ -8,6 +8,9 @@ TagManager:
   - Wall
   - Bullet
   - Coin
+  - Books
+  - Tentacle
+  - Boomerang
   layers:
   - Default
   - TransparentFX

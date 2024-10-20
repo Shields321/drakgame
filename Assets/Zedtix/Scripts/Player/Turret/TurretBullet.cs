@@ -6,7 +6,7 @@ public class TurretBullet : MonoBehaviour
 {
     [SerializeField] public float speed = 5.0f, damage = 5;
    [HideInInspector] public Transform EnemyPosition;
-    Vector3 direction;
+    [HideInInspector] public Vector3 direction;
     [SerializeField] private bool IsActived = true;
 
 
@@ -18,7 +18,7 @@ public class TurretBullet : MonoBehaviour
     }
     private void CalculateDirection()
     {          if(EnemyPosition != null) 
-        direction = (EnemyPosition.position - transform.position).normalized;        
+        direction = (EnemyPosition.position - transform.position).normalized;          
     }
     void Update()
     {      

@@ -111,9 +111,23 @@ public class MenuButtonController : MonoBehaviour
 		}
 
 	}
+    public void MainMenu()
+    {
+        if (Menu == false)
+        {
 
+            SceneManager.LoadScene("Main Menu");
 
-	public void Escape()
+        }
+        else
+        {
+            Application.Quit();
+
+        }
+
+    }
+
+    public void Escape()
 	{
 		CurntButton = PauseButton;
 		EventSystem.current.SetSelectedGameObject(CurntButton);
@@ -243,7 +257,7 @@ public class MenuButtonController : MonoBehaviour
 	public void NewGame()
 	{
 
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene("Gameplay");
 
 	}
 	public void Practice()
