@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Whenever getting hit by an enemy, return some damage to them. Has
     1 Level. Does not Scale.
   Upgarde: 15
-  Chance: 0
+  Chance: 70

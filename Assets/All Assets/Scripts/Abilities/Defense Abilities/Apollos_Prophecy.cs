@@ -5,7 +5,8 @@ using UnityEngine;
 public class Apollos_Prophecy : MonoBehaviour
 {    
     private Exp_Coin Exp_Coin;
-    private GameObject exp_coin;    
+    private GameObject exp_coin; 
+    public bool isAlive = false;   
     // Start is called before the first frame update    
 
     // Update is called once per frame

@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Increases the range that you are able to pick up EXP Gems. Has 1 Level.
     Does not Scale.
   Upgarde: 5
-  Chance: 0
+  Chance: 60

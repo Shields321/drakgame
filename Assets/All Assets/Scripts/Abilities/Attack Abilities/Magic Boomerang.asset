@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Shoot a projectile out from the player before returning, dealing damage
     to any enemies hit. Has 6 Levels. Scales by DMG.
   Upgarde: 11
-  Chance: 0
+  Chance: 65

@@ -12,6 +12,7 @@ TagManager:
   - Tentacle
   - Boomerang
   - GameManager
+  - Boss
   layers:
   - Default
   - TransparentFX

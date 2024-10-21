@@ -9,12 +9,10 @@ public class Breath_of_Corruption : MonoBehaviour
     private bool beamSpawned = false;     
     public bool isAlive = false;
     private float time;
-    private float duration = 10;
+    private float duration = 3;    
 
     // Define the radius within which to spawn beams
-    public float spawnRadius = 3.0f; // Adjust this value as needed
-
-    //private float followSpeed = 5f;    
+    public float spawnRadius = 3.0f; // Adjust this value as needed       
 
     void Update()
     {
@@ -27,7 +25,7 @@ public class Breath_of_Corruption : MonoBehaviour
                 destroyBeams();
                 time = 0f;
             }
-        }
+        }        
     }
 
     public void spawnBeam()
@@ -57,7 +55,7 @@ public class Breath_of_Corruption : MonoBehaviour
             float distanceToEdge = Mathf.Max(Camera.main.orthographicSize * Camera.main.aspect, Camera.main.orthographicSize);
 
             // Adjust the length of the beam based on the direction and distance
-            Beam.transform.localScale = new Vector3(1, distanceToEdge, 1); // Assuming the beam is narrow in the x-axis
+            Beam.transform.localScale = new Vector3(4.5f, distanceToEdge, 1); // Assuming the beam is narrow in the x-axis
 
             // Position the beam correctly
             Vector3 endPoint = randomSpawnPos + direction * distanceToEdge;

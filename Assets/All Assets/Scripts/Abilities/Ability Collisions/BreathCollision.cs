@@ -5,12 +5,12 @@ using UnityEngine;
 public class BreathCollision : MonoBehaviour
 {
     private PlayerHealth playerHealth;
-    public float damage = 5f;
+    public float damage = 35f;
 
     // This method detects 2D collisions between the book and enemies
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Enemy") || other.CompareTag("Boss"))
         {
             playerHealth = other.GetComponent<PlayerHealth>();
             if (playerHealth != null)

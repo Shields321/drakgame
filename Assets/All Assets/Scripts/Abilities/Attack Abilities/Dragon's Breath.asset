@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Fires a Powerful Beam in random directions. Has 3 Levels. Scales by
     Beam Amount.
   Upgarde: 9
-  Chance: 0
+  Chance: 10

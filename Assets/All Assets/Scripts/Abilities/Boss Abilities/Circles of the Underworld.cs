@@ -5,6 +5,7 @@ using UnityEngine;
 public class Circles_of_the_Underworld : MonoBehaviour
 {
     public GameObject underworldPrefab;
+    public GameObject Boss;
     private GameObject underworld;
     private TentacleCollision underworldCollision;
     public bool isAlive = false;
@@ -17,19 +18,18 @@ public class Circles_of_the_Underworld : MonoBehaviour
         // Increment time with each frame
         time += Time.deltaTime;
         // Check if the tentacle should be spawned and destroyed based on time
-        if (isAlive)
+        
+        if (time <= 3f)
         {
-            if (time <= 3f)
-            {
-                spawnUnderworld();
-            }
-            else
-            {
-                destroyUnderworld();
-            }
-
-
+            spawnUnderworld();
         }
+        else
+        {
+            destroyUnderworld();
+        }
+
+
+        
     }
 
     // Method to spawn a tentacle at a random position around the player
@@ -45,7 +45,7 @@ public class Circles_of_the_Underworld : MonoBehaviour
 
             // Instantiate the tentacle at the calculated random position
             underworld = Instantiate(underworldPrefab, randomSpawnPos, Quaternion.identity);
-
+            underworld.transform.localScale = new Vector3(2, 2, 1);
             // Ensure the tentacle has a 2D collider and it acts as a trigger
             if (underworld.GetComponent<CircleCollider2D>() == null)
             {
@@ -60,7 +60,7 @@ public class Circles_of_the_Underworld : MonoBehaviour
     // Method to destroy the tentacle after 3 seconds and reset the timer
     public void destroyUnderworld()
     {
-        if (underworld != null)
+        if (underworld != null || Boss)
         {
             Destroy(underworld);
             underworld = null;
@@ -68,5 +68,5 @@ public class Circles_of_the_Underworld : MonoBehaviour
 
         underworldSpawned = false;
         time = 0f;  // Reset the timer after destroying the tentacle
-    }
+    }    
 }

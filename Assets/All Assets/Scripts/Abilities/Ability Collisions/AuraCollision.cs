@@ -10,7 +10,7 @@ public class AuraCollision : MonoBehaviour
     // This method detects 2D collisions between the book and enemies
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Enemy"))
+        if (other.CompareTag("Enemy")|| other.CompareTag("Boss"))
         {
             enemyHealth = other.GetComponent<Enemy_Health>();
             if (enemyHealth != null)

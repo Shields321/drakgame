@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Elven_Holy_Garments : MonoBehaviour
 {
-    private PlayerHealth PlayerHealth;    
+    private PlayerHealth PlayerHealth;  
+    public bool isAlive = false;
     // Start is called before the first frame update
     void Start()
     {

@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Become invincible for a set amount of time when reaching a certain
     amount of HP. Has 3 Levels. Scales in Duration.
   Upgarde: 1
-  Chance: 0
+  Chance: 25

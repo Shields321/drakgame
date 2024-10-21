@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Attacks deal Increased damage to enemies at a certain distance away
     from the player. Has 3 Levels. Scales by DMG.
   Upgarde: 3
-  Chance: 0
+  Chance: 60

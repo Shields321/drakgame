@@ -25,7 +25,7 @@ public class the_Akashic_Records : MonoBehaviour
 
     private Vector3 playerPos;
 
-    private float rotationSpeed = 10f;
+    private float rotationSpeed = 6f;
     private float angle = 0f;
     private float radius = 2f;
 

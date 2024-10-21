@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Decreases the overall damage taken by the player. Has 1 Level. Does
     not Scale.
   Upgarde: 7
-  Chance: 0
+  Chance: 55

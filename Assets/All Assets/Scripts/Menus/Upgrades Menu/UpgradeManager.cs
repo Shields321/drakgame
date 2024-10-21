@@ -25,6 +25,10 @@ public class UpgradeManager : MonoBehaviour
     private Kiss_of_life kiss_Of_Life;
     private The_Demons_Enchantment the_Demons_Enchantment;
     private The_Will_of_a_Creator the_Will_Of_A_Creator;
+    private The_Frontline_mage the_Frontline_mage;
+    private Apollos_Prophecy apollos_Prophecy;
+    private Elven_Holy_Garments elven_Holy_Garments;
+    private Semblence_of_polatrity semblence_Of_Polatrity;
 
     private Dryads_Aura the_Dryads_Aura;
     private the_Akashic_Records the_Akashic_Records_script;
@@ -168,7 +172,10 @@ public class UpgradeManager : MonoBehaviour
             kiss_Of_Life.Kiss_of_life_level++;
     }
     public void Elven_Holy_Garments()
-    {
+    {        
+        GameObject EHG = GameObject.FindWithTag("Player");
+        elven_Holy_Garments = EHG.GetComponent<Elven_Holy_Garments>();
+        elven_Holy_Garments.isAlive = true;
         PlayerObject.GetComponent<Elven_Holy_Garments>().updateDef();
     }
     public void The_Will_of_a_Creator()
@@ -182,15 +189,24 @@ public class UpgradeManager : MonoBehaviour
         PlayerObject.GetComponent<The_Will_of_a_Creator>().WillOFGod();
     }
     public void Apollos_Prophecy()
-    {        
+    {
+        GameObject AP = GameObject.FindWithTag("Player");
+        apollos_Prophecy = AP.GetComponent<Apollos_Prophecy>();
+        apollos_Prophecy.isAlive = true;
         PlayerObject.GetComponent<Apollos_Prophecy>().increaseExpGain();
     }
     public void The_Frontline_mage()
     {
+        GameObject TDM = GameObject.FindWithTag("Player");
+        the_Frontline_mage = TDM.GetComponent<The_Frontline_mage>();
+        the_Frontline_mage.isAlive = true;
         PlayerObject.GetComponent<The_Frontline_mage>().doubleStats();
     }
     public void Semblence_of_polatrity()
     {
+        GameObject SOP = GameObject.FindWithTag("Player");
+        semblence_Of_Polatrity = SOP.GetComponent<Semblence_of_polatrity>();
+        semblence_Of_Polatrity.isAlive = true;
         PlayerObject.GetComponent<Semblence_of_polatrity>().increaseExpRange();
     }
     //Attack abilities

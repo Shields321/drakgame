@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51471bd14992dca4786622db1b3baa43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxhealth: 9
+  maxhealth: 12
   Coins: {fileID: 8248385143105006687, guid: 5a5e87f0051dbb143a997a14abbc0639, type: 3}
   DamageText: {fileID: 5830339192291648505, guid: d445f4693e80cf94199c0e081bc6f4e6, type: 3}
   IsActived: 0

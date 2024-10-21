@@ -15,4 +15,4 @@ MonoBehaviour:
   Title: The Frontline Mage
   Description: Doubles your HP and Movement Speed. Has 1 Level. Does not Scale.
   Upgarde: 2
-  Chance: 0
+  Chance: 40

@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Summons books to orbit around the player, dealing damage when hitting
     an enemy. Has 6 Levels. Scales by DMG and Book Amount.
   Upgarde: 14
-  Chance: 33
+  Chance: 20

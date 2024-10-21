@@ -161,7 +161,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0239bc0aaedff254580e71d3f19841a9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51471bd14992dca4786622db1b3baa43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxhealth: 20
+  maxhealth: 25
   Coins: {fileID: 8248385143105006687, guid: 5a5e87f0051dbb143a997a14abbc0639, type: 3}
   DamageText: {fileID: 5830339192291648505, guid: d445f4693e80cf94199c0e081bc6f4e6, type: 3}
   IsActived: 0

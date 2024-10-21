@@ -8,6 +8,7 @@ public class Enemy_Health : MonoBehaviour
 
     [SerializeField] private float maxhealth = 10;
     private float health;
+    public bool healthCheck = false;
 
    // [SerializeField] private GameObject BloodEffect;
     [SerializeField] private GameObject Coins;
@@ -74,9 +75,13 @@ public class Enemy_Health : MonoBehaviour
             Text.GetComponent<TMP_Text>().text = damage.ToString();
         }
         if(flashMaterial!=null)
-        Flash();        
+        Flash();
+        if (health <= 0)
+        {
+            healthCheck = true;
+        }
     }
-
+    
     public void Flash()
     {
         if (flashRoutine != null)

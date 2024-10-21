@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Drops AoE circles on the ground, dealing damage to enemies walking
     through it. Has 6 Levels. Scales by DMG.
   Upgarde: 13
-  Chance: 0
+  Chance: 70

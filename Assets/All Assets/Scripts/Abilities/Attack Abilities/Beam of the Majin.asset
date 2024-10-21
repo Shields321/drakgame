@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Aim and Fire a straight beam towards the enemy. Has 6 Levels. Scales
     by DMG and Size.
   Upgarde: 8
-  Chance: 0
+  Chance: 60

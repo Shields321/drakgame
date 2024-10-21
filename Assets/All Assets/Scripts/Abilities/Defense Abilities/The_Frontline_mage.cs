@@ -5,7 +5,8 @@ using UnityEngine;
 public class The_Frontline_mage : MonoBehaviour
 {    
     private PlayerHealth PlayerHealth;    
-    private Player_Controller player_Controller;    
+    private Player_Controller player_Controller;
+    public bool isAlive = false;
     // Start is called before the first frame update
     void Start()
     {                
