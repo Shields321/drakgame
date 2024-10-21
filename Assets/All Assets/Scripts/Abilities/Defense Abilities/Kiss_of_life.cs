@@ -8,7 +8,7 @@ public class Kiss_of_life : MonoBehaviour
     private PlayerHealth PlayerHealth;    
     private float[] healAmount = { 0.3f, 0.6f, 0.9f };
     public int Kiss_of_life_level = 0;
-    public bool isActive = false;
+    public bool isAlive = false;
     // Start is called before the first frame update
     void Start()
     {        
@@ -29,7 +29,7 @@ public class Kiss_of_life : MonoBehaviour
     }
     public void start_kissing()
     {
-        if (isActive & enemy_Health.isHitEnemy & PlayerHealth.CurrentHealth < PlayerHealth.MaxHealth)
+        if (isAlive & enemy_Health.isHitEnemy & PlayerHealth.CurrentHealth < PlayerHealth.MaxHealth)
         {            
             PlayerHealth.CurrentHealth = PlayerHealth.CurrentHealth + healAmount[Kiss_of_life_level-1];   
             enemy_Health.isHitEnemy = false;

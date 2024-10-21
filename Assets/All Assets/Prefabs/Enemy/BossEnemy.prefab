@@ -98,6 +98,8 @@ GameObject:
   - component: {fileID: 4448689018397896702}
   - component: {fileID: 761235243338984757}
   - component: {fileID: 8576208040459384967}
+  - component: {fileID: -1177904361481297795}
+  - component: {fileID: 5754534906747253909}
   m_Layer: 0
   m_Name: BossEnemy
   m_TagString: Enemy
@@ -275,3 +277,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-1177904361481297795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6123352684566978257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266c26acee072384ca57be87e08e08e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  underworldPrefab: {fileID: 4412177326556289543, guid: 32049dbd0e2a86c4ca6a51009d2cb3db, type: 3}
+  isAlive: 0
+  count: 0
+--- !u!114 &5754534906747253909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6123352684566978257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c0ffe03175a3348a014db5c3621e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beamPrefab: {fileID: 7171875991872838370, guid: 760be9b780a4c3e41be41f94dea967c6, type: 3}
+  isAlive: 0
+  spawnRadius: 3

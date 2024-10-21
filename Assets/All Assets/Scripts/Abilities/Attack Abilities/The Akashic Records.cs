@@ -44,9 +44,9 @@ public class the_Akashic_Records : MonoBehaviour
         // Spawn books only if they have not been spawned yet and the level matches
         if (!bookSpawned && (the_Akashic_Records_level == 1 || the_Akashic_Records_level == 3 || the_Akashic_Records_level == 6))
         {
-            playerPos = transform.position;
-
-            for (int i = 0; i < 3; i++)  // Iterate through all 3 books
+            bookAmounts++;
+            playerPos = transform.position;            
+            for (int i = 0; i < bookAmounts; i++)  // Iterate through all 3 books
             {
                 Vector3 spawnPos = playerPos + offsets[i];  // Use different offset for each book
                 spawnedBooks[i] = Instantiate(BooksPrefab, spawnPos, Quaternion.identity);
@@ -56,9 +56,7 @@ public class the_Akashic_Records : MonoBehaviour
                 {
                     spawnedBooks[i].AddComponent<BoxCollider2D>().isTrigger = true;  // Adding 2D trigger collider
                 }
-            }
-
-            bookAmounts = 3; // We have now spawned 3 books
+            }            
             bookSpawned = true; // All books have been spawned
         }
 

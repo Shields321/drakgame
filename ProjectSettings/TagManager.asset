@@ -11,6 +11,7 @@ TagManager:
   - Books
   - Tentacle
   - Boomerang
+  - GameManager
   layers:
   - Default
   - TransparentFX

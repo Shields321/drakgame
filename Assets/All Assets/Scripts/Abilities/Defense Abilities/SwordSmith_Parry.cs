@@ -10,7 +10,7 @@ public class SwordSmith_Parry : MonoBehaviour
     private PlayerHealth Damge_Player;
     private int[] chance = {5,10,15,20,25,30 };
     public int SwordSmith_Parry_level = 0;
-    public bool isActive = false;
+    public bool isAlive = false;
     private float time = 3f;
     private float timeab;
     // Start is called before the first frame update
@@ -33,7 +33,7 @@ public class SwordSmith_Parry : MonoBehaviour
     }
     public void Deflect()
     {
-        if (isActive)
+        if (isAlive)
         {
             float value = UnityEngine.Random.Range(0, 100);
             if (value <= chance[SwordSmith_Parry_level - 1])

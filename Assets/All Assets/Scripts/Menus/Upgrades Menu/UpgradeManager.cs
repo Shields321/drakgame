@@ -13,6 +13,7 @@ public class UpgradeManager : MonoBehaviour
     [SerializeField] private Slider ExpBar;
     [SerializeField] private GameObject PlayerObject;
     private float hpPerLevel=1.5f;
+    [HideInInspector]public int playerLevel = 1;
 
     public List<UpgradeScriptableObject> UpgadeToSpawn;
     public List<GameObject> UpgadeUiObject;
@@ -24,6 +25,7 @@ public class UpgradeManager : MonoBehaviour
     private Kiss_of_life kiss_Of_Life;
     private The_Demons_Enchantment the_Demons_Enchantment;
     private The_Will_of_a_Creator the_Will_Of_A_Creator;
+
     private Dryads_Aura the_Dryads_Aura;
     private the_Akashic_Records the_Akashic_Records_script;
     private Beam_of_the_Majin beam_Of_The_Majin;
@@ -65,6 +67,7 @@ public class UpgradeManager : MonoBehaviour
 
             MaxExp *= hpPerLevel;
             SetMaxExp(MaxExp);
+            playerLevel++;
 
         }
 
@@ -150,7 +153,7 @@ public class UpgradeManager : MonoBehaviour
         swordSmith_Parry = parry.GetComponent<SwordSmith_Parry>();
         swordSmith_Parry.Deflect();
 
-        swordSmith_Parry.isActive = true;
+        swordSmith_Parry.isAlive = true;
         if (swordSmith_Parry.SwordSmith_Parry_level < 6)
             swordSmith_Parry.SwordSmith_Parry_level++;
     }
@@ -160,7 +163,7 @@ public class UpgradeManager : MonoBehaviour
         kiss_Of_Life = kiss.GetComponent<Kiss_of_life>();
         kiss_Of_Life.start_kissing();
 
-        kiss_Of_Life.isActive = true;
+        kiss_Of_Life.isAlive = true;
         if (kiss_Of_Life.Kiss_of_life_level < 3)
             kiss_Of_Life.Kiss_of_life_level++;
     }

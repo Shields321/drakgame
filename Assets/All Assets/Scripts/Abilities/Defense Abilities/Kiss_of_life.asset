@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Heal a small amount of HP when hitting an enemy with your basic attack.
     Has 3 Levels. Scales by Healing Amount.
   Upgarde: 6
-  Chance: 0
+  Chance: 33
