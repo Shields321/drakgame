@@ -181,8 +181,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Defence Abilities: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
+  m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3274,7 +3274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -760.3, y: -23.099976}
+  m_AnchoredPosition: {x: -757.4, y: -22.76}
   m_SizeDelta: {x: 31.885315, y: 13.4599}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &867200388
@@ -3299,8 +3299,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Kills: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
+  m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4340,8 +4340,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c73f38ddd2686a428e139ed25cbe4f3, type: 2}
+  m_sharedMaterial: {fileID: 2841283218883416253, guid: 5c73f38ddd2686a428e139ed25cbe4f3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4627,8 +4627,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Attack Abilities: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
+  m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7339,8 +7339,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Level: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
+  m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
