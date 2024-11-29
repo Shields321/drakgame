@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: Dragon's Breath
   m_EditorClassIdentifier: 
   Title: Dragon's Breath
-  Description: Fires a Powerful Beam in random directions. Has 3 Levels. Scales by
-    Beam Amount.
+  Description: Unleash a powerful beam in random directions, dealing damage to enemies
+    it hits
+  Lore: Originating from the legendary Dragons themselves, Dragon's Breath is a powerful
+    magic spell that mimics their signature move. Ancient and mighty, the dragons
+    once ruled the skies of Drakoria, but now they are few and far between. Their
+    breath, able to scorch entire landscapes and turn cities into ash, was highly
+    sought after by the other races in Drakoria, particularly the humans. Its immense
+    power is balanced by its danger to its user. If the wielder lacks control, the
+    flames can consume them whole. Mastery requires deep knowledge and constant practice
+    or to have draconic blood within you.
   Upgarde: 9
   Chance: 10

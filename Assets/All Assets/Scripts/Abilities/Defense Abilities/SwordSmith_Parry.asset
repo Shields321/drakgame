@@ -13,7 +13,16 @@ MonoBehaviour:
   m_Name: SwordSmith_Parry
   m_EditorClassIdentifier: 
   Title: Swordsmith's Parry
-  Description: Upon being hit by an enemy, there is a chance to negate that hit.
-    Has 6 Levels. Scales by Percentage Chance.
+  Description: When being hit by an enemy, there is a small chance that the attack
+    does zero damage
+  Lore: A legendary technique passed down through generations of master swordsmiths
+    and duelists. Said to have been mastered by the first legendary Swordsmith, Valdran.
+    Sought after by all who wield a sword, the parry was a move once thought to be
+    impossible at worst, or inconsistent and worthless at best. However, the technique
+    has grown and evolved over the years, becoming a tool all swordfighters must
+    learn and utilize effectively. A blade is not just metal. It is a living entity
+    with a flow and energy that can be harnessed. Those who wield the sword align
+    themselves with this flow to deflect incoming strikes with a mere flick of their
+    wrist.
   Upgarde: 4
   Chance: 70

@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: Semblence_of_polatrity
   m_EditorClassIdentifier: 
   Title: Semblance of Polarity
-  Description: Increases the range that you are able to pick up EXP Gems. Has 1 Level.
-    Does not Scale.
+  Description: Gain control over magnetism, increasing the range that you are able
+    to pick up EXP Gems
+  Lore: A rare and mystical power rooted in the fundamental forces of the world.
+    Semblances are inherent abilities that all people develop, with their skills
+    being tailor-made for their professions, hobbies, or interests. The Semblance
+    of Polarity is not the most common of these, but its ability to manipulate magnetism
+    itself can prove extremely useful to anyone that wields it, especially those
+    frequent in combat and exploration. No matter how strong or weak a magnetic force
+    may be, channeling one's inner aura and mana supply can let the user manipulate
+    the magnetism of any object.
   Upgarde: 5
   Chance: 60

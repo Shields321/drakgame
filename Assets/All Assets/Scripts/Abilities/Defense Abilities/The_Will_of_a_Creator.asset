@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: The_Will_of_a_Creator
   m_EditorClassIdentifier: 
   Title: The Will of a Creator
-  Description: Become invincible for a set amount of time when reaching a certain
-    amount of HP. Has 3 Levels. Scales in Duration.
+  Description: Become invincible for a short amount of time once reaching a certain
+    amount of HP
+  Lore: Drakoria is home to many gods, goddesses, and other divine entities. Apart
+    from a select few, these beings tend to be hands-off when it comes to the affairs
+    of this world. You, however, think you may be one of these select few. Upon your
+    arrival to this world, you started hearing a voice in your head; a whisper. Whenever
+    deep in thought and filled with distraught and questions, this voice tends to
+    soothe you and clear your mind. Whenever faced with death, it is as if you're
+    brought back to life for the tiniest of moments, given a second chance to quickly
+    escape, heal, or secure the kill.
   Upgarde: 1
   Chance: 25

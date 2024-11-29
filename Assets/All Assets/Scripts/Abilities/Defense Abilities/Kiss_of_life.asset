@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: Kiss_of_life
   m_EditorClassIdentifier: 
   Title: Kiss of Life
-  Description: Heal a small amount of HP when hitting an enemy with your basic attack.
-    Has 3 Levels. Scales by Healing Amount.
+  Description: When hitting an enemy, heal a small amount of HP
+  Lore: Drawn from the forbidden arts of Dark Magic, those delving deep into the
+    element can unlock the power to manipulate life and death itself. By striking
+    down their enemies, the wielder siphons a portion of their life essence, absorbing
+    it and using it for themselves - a brief and potent surge of healing. The power
+    to draw life from others, however, is considered a dangerous temptation, even
+    for those specializing in the element. Those who feed off the suffering and death
+    of others too freely risk being consumed by the very forces they manipulate.
   Upgarde: 6
   Chance: 10

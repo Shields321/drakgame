@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: Tentacles of the Abyss
   m_EditorClassIdentifier: 
   Title: Tentacles of the Abyss
-  Description: Drops AoE circles on the ground, dealing damage to enemies walking
-    through it. Has 6 Levels. Scales by DMG.
+  Description: Channel tentacles out from the abyss, dealing damage to any enemies
+    within its grasp.
+  Lore: Dark magic is powerful, rare, and forbidden for most. The sheer power and
+    corruptive nature of this element has led to many conflicts in the past, creating
+    villainous characters time after time. The masters of dark magic, however, are
+    able to resist the calls of the void and utilize their power without restriction.
+    Despite its rarity and forbidden nature, like other elements, it is fairly easy
+    to require. Through teaching, grimoires, or first-hand experience, one can acquire
+    the powers of the abyss. The catch? Teaching of dark magic is strictly forbidden,
+    while almost all known grimoires are kept under lock and key.
   Upgarde: 13
   Chance: 70

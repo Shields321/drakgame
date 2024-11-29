@@ -13,6 +13,15 @@ MonoBehaviour:
   m_Name: The_Frontline_mage
   m_EditorClassIdentifier: 
   Title: The Frontline Mage
-  Description: Doubles your HP and Movement Speed. Has 1 Level. Does not Scale.
+  Description: Re-enact the actions of one of the most famous mages in Drakoria,
+    doubling your HP and Movement Speed
+  Lore: A legendary technique passed down by one of the greatest mages in Drakoria's
+    history. Some called him brave, others called him insane. Despite the mage's
+    immense power and offensive magic abilities, they were always known as a mid-range
+    or supportive class. Getting up close and personal was always a job for the swordsmen
+    and other weapon wielders. Magister Arion, however, broke this stereotype, casting
+    magic upon himself and abandoning his position to fight on the front lines. His
+    actions were not only successful, but filled other mages with similar ideals
+    to follow in his footsteps.
   Upgarde: 2
   Chance: 40

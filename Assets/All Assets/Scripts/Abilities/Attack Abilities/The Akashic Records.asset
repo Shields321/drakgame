@@ -13,7 +13,16 @@ MonoBehaviour:
   m_Name: The Akashic Records
   m_EditorClassIdentifier: 
   Title: The Akashic Records
-  Description: Summons books to orbit around the player, dealing damage when hitting
-    an enemy. Has 6 Levels. Scales by DMG and Book Amount.
+  Description: Summon books to rotate around you, dealing damage to any enemies that
+    come into contact with it.
+  Lore: Housing all the events from the past, present, and near future, the Akashic
+    Records of Drakoria are not as rare as one would assume. Standard issue in learning
+    institutions, they're quite accessible and pillars of the highest levels of education
+    found in this world. While the near future is written in the Akashic Records,
+    new updated copies must be produced or found to continue peering into the future
+    as it can only look two to three years forward. The High Sages, however, can
+    channel another use out of the records, combining knowledge and magic together
+    to create a book that acts as a familiar, protecting and fighting alongside their
+    user.
   Upgarde: 14
   Chance: 20

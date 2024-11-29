@@ -13,7 +13,17 @@ MonoBehaviour:
   m_Name: The_Demons_Enchantment
   m_EditorClassIdentifier: 
   Title: The Demon's Enchantment
-  Description: Attacks deal Increased damage to enemies at a certain distance away
-    from the player. Has 3 Levels. Scales by DMG.
+  Description: Call upon the demon race and activate the enchanment to increase your
+    strength, dealing increased damage to any enemies far away.
+  Lore: A forbidden pact sealed between the user and the terrifying high demons under
+    the blood moon. The Daemon's are a second evolution of regular demonfolk, brought
+    upon by their immense strength and power, causing them to rise up the ranks to
+    become one of the leaders of demonkind. The Enchantment offers a surge of power
+    like no other - a violet surge of demonic might, manifesting when they are distanced
+    from their prey to eliminate their weaknesses and to stay as dangerous as possible
+    from any range. It is not a gift freely given, however. A mark connects the wielder's
+    soul to the infernal realms, forever binding them to the demon race. Rarely taught
+    to non-demons, even more so for humans, means that those with this enchantment
+    are recognized as important friends and allies to the demon race.
   Upgarde: 3
   Chance: 60

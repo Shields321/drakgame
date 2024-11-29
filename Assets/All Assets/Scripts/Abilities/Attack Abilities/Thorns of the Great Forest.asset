@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Thorns of the Great Forest
   m_EditorClassIdentifier: 
   Title: Thorns of the Great Forest
-  Description: Whenever getting hit by an enemy, return some damage to them. Has
-    1 Level. Does not Scale.
+  Description: Wrap yourself in deadly thorns. Any enemies that hit you also gets
+    damage dealt to them.
+  Lore: Tied to the untamed wilds of Drakoria, the Great Forest stretches across
+    the vast lands. Drawing power from the sentient, thorn-covered trees that protect
+    the heart of the forest, those skilled enough can wrap themselves around these
+    thorns, protecting them from anyone with the aim of harming them.
   Upgarde: 15
   Chance: 70

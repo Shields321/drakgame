@@ -15,5 +15,13 @@ MonoBehaviour:
   Title: Beam of the Majin
   Description: Aim and Fire a straight beam towards the enemy. Has 6 Levels. Scales
     by DMG and Size.
+  Lore: The Majin, a race of intelligent monsters, are one of the many races found
+    in Drakoria. As one of the strongest, these demonic people specialize in magic.
+    While most Majin are indifferent or friendly to the other races inhabiting the
+    world, they still face scrutiny and fear from some humans, viewing them as dangerous
+    and evil. A magic-born, their specialization in magic led them to develop a signature
+    spell - one of concentrated magic that, when unleashed, creates a devastating
+    beam of power and destruction unique to them. The Majin, however, can teach this
+    spell to others. The difficulty of learning it, however, is incredibly high.
   Upgarde: 8
   Chance: 60

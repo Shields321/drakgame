@@ -11,6 +11,7 @@ public class UpgradeUi : MonoBehaviour
 
     [SerializeField] private TMP_Text Title;
     [SerializeField] private TMP_Text Description;
+    [SerializeField] private TMP_Text Lore;
     [SerializeField] private Image Icon;
     [SerializeField] private string UpgradeName;
 
@@ -25,6 +26,7 @@ public class UpgradeUi : MonoBehaviour
     {
         Title.text = Upgrade.Title;
         Description.text = Upgrade.Description;
+        Lore.text = Upgrade.Lore;
         //Icon.sprite = Upgrade.Icon;
         UpgradeName = Upgrade.name;
 

@@ -13,7 +13,17 @@ MonoBehaviour:
   m_Name: Magic Boomerang
   m_EditorClassIdentifier: 
   Title: Magic Boomerang
-  Description: Shoot a projectile out from the player before returning, dealing damage
-    to any enemies hit. Has 6 Levels. Scales by DMG.
+  Description: Shoot out a projectile. The projectile travels outwards for a certain
+    distance before returning to you, dealing damage to any enemies hit.
+  Lore: When learning magic, instructors always mentioned that in order to feel magic,
+    activate magic, and conjure it in reality, you had to picture what you wanted
+    vividly. If you wanted to cast a type of explosion magic, you had to envision
+    what goes into the explosion, how the explosion activates, the aftermath, and
+    everything in between. The toll on the mind is almost as great as the cost of
+    mana, with more complex and powerful spells requiring more mana. One of the first
+    spells you tried was an arc of magic power to shoot out like a boomerang, returning
+    to you and dealing twice the damage, dispersing before hitting you. It had some
+    holes, but to your surprise, it worked. You've been using it ever since as a
+    reminder of where you started.
   Upgarde: 11
   Chance: 65

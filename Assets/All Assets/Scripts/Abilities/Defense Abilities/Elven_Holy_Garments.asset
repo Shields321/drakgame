@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: Elven_Holy_Garments
   m_EditorClassIdentifier: 
   Title: Elven Holy Garments
-  Description: Decreases the overall damage taken by the player. Has 1 Level. Does
-    not Scale.
+  Description: Don the garments forged by the secret Elven race, slightly decreasing
+    all damage taken
+  Lore: Forged in the sanctum of the Elven High Priests, these holy garments are
+    revered as a sacred relic, imbued with divine protection from the spirits. Its
+    power is only matched by its rarity. The Elven race is extremely secluded and
+    secretive, rarely appearing outside of their forest. Items crafted by the elves
+    are typically reserved for themselves, and as such, one would be hard-pressed
+    to get their hands on it without requesting it from the Elven High Priest themselves,
+    but their secrecy and secluded nature also means that they are equally weary
+    and suspicious of any and all outsiders, their trust nearly impossible to gain.
   Upgarde: 7
   Chance: 55
