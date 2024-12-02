@@ -160,10 +160,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: It was just another regular day until I got transported here out of nowhere.
+  m_text: The news was filled with mysterious disappearances after mysterious disappearances.
+    From strangers to close friends. I never imagined I would be one of them... until
+    now.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
+  m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -187,8 +189,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -203,7 +205,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -223,7 +225,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -441.2885, y: 0, z: -426.18738, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -253,7 +255,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: 99}
+  m_AnchoredPosition: {x: 4, y: 149}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &784816148
@@ -434,11 +436,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Regardless, it doesn't matter. I didn't spend this entire year training
-    for nothing.
+  m_text: 'Through all my talking, research, and training, I was constantly pointed
+    to one place: The Tower of Drakoria. It housed the mighty. It housed the answers.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
+  m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -462,8 +464,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -478,7 +480,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -498,7 +500,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -446.3222, y: 0, z: -432.89905, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -528,7 +530,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -88}
+  m_AnchoredPosition: {x: 6, y: -154}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &929882965
@@ -569,10 +571,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I need answers. I need to climb the Tower of Drakoria.
+  m_text: And so, my goal was clear, and now I'm setting off. I need to climb the
+    Tower of Drakoria.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
+  m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -596,8 +599,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -612,7 +615,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -632,7 +635,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -436.25476, y: 0, z: -437.93274, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -662,7 +665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -142}
+  m_AnchoredPosition: {x: -1, y: -246}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1026012268
@@ -747,11 +750,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: My friends have been slowly disappearing too, could this be the reason
-    why?
+  m_text: Those I've talked to said I wasn't the first one to arrive recently, and
+    that there were others with similar stories to mine.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
+  m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -775,8 +778,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -791,7 +794,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -811,7 +814,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -441.2885, y: 0, z: -431.2212, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -841,7 +844,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: 42}
+  m_AnchoredPosition: {x: 2, y: 28}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1133263263
@@ -974,13 +977,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'After all, the words that filled my head when I got here was:
-
-    "Find
-    your Friends. Climb the Tower."'
+  m_text: 'While a world straight out of a video game was intriguing, there was ultimately
+    one thing on my mind: Find my friends and get back home.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
+  m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1004,8 +1005,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1020,7 +1021,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1040,7 +1041,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -439.6106, y: 0, z: -429.5432, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1070,7 +1071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -9}
+  m_AnchoredPosition: {x: 4, y: -60}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1483154991
@@ -1179,11 +1180,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: One year. It's been one year since I've arrived in this foreign world called
-    "Drakoria."
+  m_text: One year and seven months. That's the amount of time that has passed since
+    arriving in this foreign world called "Drakoria".
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
-  m_sharedMaterial: {fileID: 4752119839918861663, guid: 633052dbcabf8094180d24470d8b91c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
+  m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1207,8 +1208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1223,7 +1224,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1243,7 +1244,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -439.35492, y: 0, z: -421.1256, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1273,7 +1274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: 150}
+  m_AnchoredPosition: {x: 8, y: 248}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1655366057
