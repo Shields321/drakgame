@@ -8,7 +8,7 @@ public class NextSceneLoader : MonoBehaviour
 
     void OnEnable()
     {
-        SceneManager.LoadScene("Gameplay", LoadSceneMode.Single);
+        SceneManager.LoadScene("Gameplay");
     }
 
 }

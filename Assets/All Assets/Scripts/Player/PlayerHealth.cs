@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public Slider slider;
     public Vector3 SliderOffset;
     public bool IsDead;
+    public bool deadSFX;
     public float def = 0f;
     [HideInInspector]public float finalDamage;
     public int parry;
@@ -26,6 +27,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
+        deadSFX = false;
         CurrentHealth = MaxHealth;
         setmaxhealth(MaxHealth);
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -40,12 +42,16 @@ public class PlayerHealth : MonoBehaviour
         {
             IsDead = true;
 
+            if (deadSFX == false)
+            {
+                AudioManagerTwo.instance.PlayGameOverSFX();
+                deadSFX = true;
+            }
+
         }
         else
             IsDead = false;        
     }
-
-
 
    
     public void TakeDamage(float damage)

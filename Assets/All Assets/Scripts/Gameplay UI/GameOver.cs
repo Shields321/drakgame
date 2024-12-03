@@ -25,8 +25,7 @@ public class GameOver : MonoBehaviour
         if(PlayerHealth!=null)
         if (PlayerHealth.IsDead)
         {
-
-            gameOver();
+           gameOver();
         }
       
     }

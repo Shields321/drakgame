@@ -49,7 +49,8 @@ public class MenuButtonController : MonoBehaviour
 		AudioButton = AudioObject.transform.GetChild(0).gameObject;
 		GraphicsButton = GraphicsObject.transform.GetChild(0).gameObject;
 		CreditsButton = CreditsObject.transform.GetChild(0).gameObject;
-		if (Menu)
+
+        if (Menu)
 		{
 			EventSystem.current.SetSelectedGameObject(MaineMenuButton);
 
@@ -115,7 +116,7 @@ public class MenuButtonController : MonoBehaviour
     {
         if (Menu == false)
         {
-
+            AudioManagerTwo.instance.UnPauseBGM();
             SceneManager.LoadScene("Main Menu");
 
         }
@@ -129,13 +130,14 @@ public class MenuButtonController : MonoBehaviour
 
     public void Escape()
 	{
-		CurntButton = PauseButton;
+        CurntButton = PauseButton;
 		EventSystem.current.SetSelectedGameObject(CurntButton);
 		MaineMenuObject.SetActive(false);
 		Pause = true;
 		PauseObject.SetActive(true);
+        AudioManagerTwo.instance.PlayPausedSFX();
 
-	}
+    }
 
 	public void Setting()
 	{
@@ -256,16 +258,9 @@ public class MenuButtonController : MonoBehaviour
 	}
 	public void NewGame()
 	{
+        SceneManager.LoadScene("Gameplay");
 
-		SceneManager.LoadScene("Gameplay");
-
-	}
-	public void Practice()
-	{
-
-		SceneManager.LoadScene(3);
-
-	}
+    }
 
 
 }

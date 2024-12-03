@@ -7,7 +7,10 @@ public class LoadCutsceneScene : MonoBehaviour
 {
     public void LoadCutscene()
     {
+
+        AudioManagerTwo.instance.StopBGM();
         SceneManager.LoadScene("OpeningCutscene");
+
     }
 
 }

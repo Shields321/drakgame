@@ -10,12 +10,13 @@ public class BossDead : MonoBehaviour
     public TMP_Text Kills;
     public TMP_Text TimerText;
     public TMP_Text KillsText;
+    public bool victorySFX;
     private Enemy_Health enemyHealth;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        victorySFX = false;
     }
 
     // Update is called once per frame
@@ -32,6 +33,12 @@ public class BossDead : MonoBehaviour
             {
 
                 gameOver();
+
+                if (victorySFX == false)
+                {
+                    AudioManagerTwo.instance.PlayFloorClearedSFX();
+                    victorySFX = true;
+                }
             }
         }
     

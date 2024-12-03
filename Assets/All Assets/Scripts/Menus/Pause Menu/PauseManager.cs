@@ -13,9 +13,11 @@ public class PauseManager : MonoBehaviour
     public GameObject pauseText;
     public Canvas pauseCanvas;
     private bool isPaused = true;
+    public bool pauseSFX;
     // Start is called before the first frame update
     void Start()
     {
+        pauseSFX = false;
         pause.SetActive(true);
         resume.SetActive(false);
         pauseCanvas.gameObject.SetActive(false);
@@ -34,6 +36,13 @@ public class PauseManager : MonoBehaviour
             {
                 Pause();
                 isPaused = true;
+
+                if (pauseSFX == false)
+                {
+                    AudioManagerTwo.instance.PlayPausedSFX();
+                    pauseSFX = true;
+                }
+
             }
         }
         else if (isPaused == true)
@@ -42,6 +51,7 @@ public class PauseManager : MonoBehaviour
             {
                 Resume();
                 isPaused = false;
+                pauseSFX = false;
             }
         }
 
@@ -57,6 +67,7 @@ public class PauseManager : MonoBehaviour
         pauseText.SetActive(true);
         // show the canvas
         pauseCanvas.gameObject.SetActive(true);
+        AudioManagerTwo.instance.PlayPausedSFX();
     }
     public void Resume()
     {
