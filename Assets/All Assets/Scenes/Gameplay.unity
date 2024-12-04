@@ -1632,7 +1632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f11aa4acb322104db43584d2c47d981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 5
+  MaxHealth: 15
   CurrentHealth: 0
   slider: {fileID: 1143558657}
   SliderOffset: {x: 0, y: 0.55, z: 0}
@@ -2171,7 +2171,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 509381099}
         m_TargetAssemblyTypeName: AudioManagerTwo, Assembly-CSharp
-        m_MethodName: PlayButtonClickSFX
+        m_MethodName: PlayUpgradeMenuSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2328,6 +2328,12 @@ MonoBehaviour:
   pausedSFX: {fileID: 8300000, guid: ec36da00c95d55b4ebd880d665ab4214, type: 3}
   gameOverSFX: {fileID: 8300000, guid: 95b6b724bc0db1e4c8aa95f65e75f6af, type: 3}
   floorClearedSFX: {fileID: 8300000, guid: 67dba978b04d1774baadd5114e143221, type: 3}
+  upgradeMenuSFX: {fileID: 8300000, guid: e6d0bfa704e58c646b259ab1cde18556, type: 3}
+  playerFootstepSFX: {fileID: 8300000, guid: 42395029d09bc304397158d7de169065, type: 3}
+  playerHitSFX: {fileID: 8300000, guid: 970015cb76779e549977750702441137, type: 3}
+  playerDeathSFX: {fileID: 8300000, guid: 9e44ea3ca504f6d49b55fa74ac85cdfc, type: 3}
+  EnemyHitSFX: {fileID: 8300000, guid: a67f8120659592a41866b27e754e13a5, type: 3}
+  EnemyDeathSFX: {fileID: 8300000, guid: 3062d727a11abe0438b2019d6a9d26ff, type: 3}
   bgmSlider: {fileID: 0}
   sfxSlider: {fileID: 0}
 --- !u!4 &509381100
@@ -6582,7 +6588,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 509381099}
         m_TargetAssemblyTypeName: AudioManagerTwo, Assembly-CSharp
-        m_MethodName: PlayButtonClickSFX
+        m_MethodName: PlayUpgradeMenuSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9377,7 +9383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7645007112050736890, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayButtonClickSFX
+      value: PlayUpgradeMenuSFX
       objectReference: {fileID: 0}
     - target: {fileID: 7645007112050736890, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName

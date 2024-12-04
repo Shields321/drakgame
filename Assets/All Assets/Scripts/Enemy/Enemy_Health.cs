@@ -67,7 +67,7 @@ public class Enemy_Health : MonoBehaviour
         if(GetComponent<Enemy_Movement>()!=null)
         GetComponent<Enemy_Movement>().NockBackTime = .2f;
 
-        AudioManager.instance.PlaySound("Enemy_Hurt");
+        AudioManagerTwo.instance.PlayEnemyHitSFX();
         if (DamageText != null)
         {
             GameObject Text = Instantiate(DamageText, transform.position, Quaternion.identity);
@@ -78,6 +78,7 @@ public class Enemy_Health : MonoBehaviour
         Flash();
         if (health <= 0)
         {
+            AudioManagerTwo.instance.PlayEnemyDeathSFX();
             healthCheck = true;
         }
     }

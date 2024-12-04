@@ -11,6 +11,8 @@ public class Player_Controller : MonoBehaviour
     private Vector3 moveDir;
     private Vector3 lastMoveDir;
 
+    private bool isMoving = false;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -47,8 +49,24 @@ public class Player_Controller : MonoBehaviour
             {
                 // Not idle
                 lastMoveDir = moveDir;
+
+                // If player is starting to move and wasn't moving before, play the footstep sound
+                if (!isMoving)
+                {
+                    isMoving = true;
+                    AudioManagerTwo.instance.PlayPlayerFootstepSFX(); // Play the footstep sound
+                
+                }
             }
-      
+            else
+            {
+                // Player is not moving anymore
+                if (isMoving)
+                {
+                    isMoving = false; // Stop moving
+                }
+            }
+
     }
 
     private void FixedUpdate()

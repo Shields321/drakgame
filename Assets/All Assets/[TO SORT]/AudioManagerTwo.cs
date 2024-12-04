@@ -22,6 +22,12 @@ public class AudioManagerTwo : MonoBehaviour
     public AudioClip pausedSFX;            //Paused Sound Effect
     public AudioClip gameOverSFX;        // Hover Button Sound Effect
     public AudioClip floorClearedSFX;        // Hover Button Sound Effect
+    public AudioClip upgradeMenuSFX;
+    public AudioClip playerFootstepSFX;
+    public AudioClip playerHitSFX;
+    public AudioClip playerDeathSFX;
+    public AudioClip EnemyHitSFX;
+    public AudioClip EnemyDeathSFX;
 
 
 
@@ -146,6 +152,44 @@ public class AudioManagerTwo : MonoBehaviour
     {
         PlaySFX(floorClearedSFX);
     }
+
+    public void PlayUpgradeMenuSFX()
+    {
+        PlaySFX(upgradeMenuSFX);
+    }
+
+    public void PlayPlayerFootstepSFX()
+    {
+        PlaySFX(playerFootstepSFX);
+    }
+
+    public void PlayPlayerHitSFX()
+    {
+        PlaySFX(playerHitSFX);
+    }
+
+    public void PlayPlayerDeathSFX()
+    {
+        PlaySFX(playerDeathSFX);
+    }
+
+    public void PlayEnemyHitSFX()
+    {
+        PlaySFX(EnemyHitSFX);
+    }
+
+    public void PlayEnemyDeathSFX()
+    {
+        PlaySFX(EnemyDeathSFX);
+    }
+
+
+
+
+
+
+
+
 
     public void PlayPausedSFX()
     {

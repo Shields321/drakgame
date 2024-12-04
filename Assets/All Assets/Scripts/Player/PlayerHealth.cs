@@ -44,6 +44,7 @@ public class PlayerHealth : MonoBehaviour
 
             if (deadSFX == false)
             {
+                AudioManagerTwo.instance.PlayPlayerDeathSFX();
                 AudioManagerTwo.instance.PlayGameOverSFX();
                 deadSFX = true;
             }
@@ -57,7 +58,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(float damage)
     {
         isTakeDamage = true;
-        AudioManager.instance.PlaySound("Hurt");
+        AudioManagerTwo.instance.PlayPlayerHitSFX();
         if (def != 0)
         {
             finalDamage = Mathf.Max(((damage*def)*parry)*willCreate, 0);            
