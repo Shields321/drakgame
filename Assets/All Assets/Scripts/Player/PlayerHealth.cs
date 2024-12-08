@@ -70,7 +70,7 @@ public class PlayerHealth : MonoBehaviour
         CurrentHealth -= finalDamage;
         sethealth(CurrentHealth);
         Flash();
-
+        
 
     }
     public void Heal(float Healing)

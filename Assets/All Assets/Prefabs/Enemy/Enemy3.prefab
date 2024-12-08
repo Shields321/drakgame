@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 4448689018397896702}
   - component: {fileID: 761235243338984757}
   - component: {fileID: 8576208040459384967}
+  - component: {fileID: 5301713662127649025}
   m_Layer: 0
   m_Name: Enemy3
   m_TagString: Enemy
@@ -186,6 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxhealth: 25
+  healthCheck: 0
   Coins: {fileID: 8248385143105006687, guid: 5a5e87f0051dbb143a997a14abbc0639, type: 3}
   DamageText: {fileID: 5830339192291648505, guid: d445f4693e80cf94199c0e081bc6f4e6, type: 3}
   IsActived: 0
@@ -275,3 +277,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &5301713662127649025
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6123352684566978257}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e73f3b112d88b3446b0e7038037fdde0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
