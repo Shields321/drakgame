@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -3078821177079040141}
   - component: {fileID: -6333941573015261120}
   - component: {fileID: 9208307462769371044}
+  - component: {fileID: 9165842493475675957}
   m_Layer: 0
   m_Name: BossLava
   m_TagString: Enemy
@@ -28,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 4412177326556289543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.3611, y: -0.3464, z: 0}
+  m_LocalScale: {x: 2.1284223, y: 2.082426, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -120,7 +121,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.655
+  m_Radius: 1.17
 --- !u!114 &9208307462769371044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,3 +135,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+--- !u!95 &9165842493475675957
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4412177326556289543}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 85353c31e44fa89429b0b48bc80ad429, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

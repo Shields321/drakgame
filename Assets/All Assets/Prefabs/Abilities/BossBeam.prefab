@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9045028149895369461}
   - component: {fileID: 9022122277483039531}
   - component: {fileID: -4849174825296159273}
+  - component: {fileID: 4645963958804617630}
   m_Layer: 0
   m_Name: BossBeam
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 5e20a86991826b5418a421d1fd997e3c, type: 3}
+  m_Sprite: {fileID: -74480148, guid: 44e11c82b5ebc71488b0ba1bf1bf94ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -122,14 +123,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.34, y: 0.84}
+    oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 0.34, y: 0.84}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.34, y: 0.84}
+  m_Size: {x: 0.34, y: 0.66}
   m_EdgeRadius: 0
 --- !u!114 &-4849174825296159273
 MonoBehaviour:
@@ -144,3 +145,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+--- !u!95 &4645963958804617630
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171875991872838370}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bdcdf717ed0affa478a4fb858b01df1a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

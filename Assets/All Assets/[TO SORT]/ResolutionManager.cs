@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine;
 using TMPro;
 
 public class ResolutionManager : MonoBehaviour
 {
     public TMP_Dropdown resolutionDropdown;  // Use TMP_Dropdown instead of Dropdown
+    public Toggle fullscreenToggle;          // Reference to the Fullscreen Toggle
 
     private Resolution[] availableResolutions;
 
@@ -42,8 +42,14 @@ public class ResolutionManager : MonoBehaviour
         int defaultResolutionIndex = GetDefaultResolutionIndex();
         resolutionDropdown.value = defaultResolutionIndex;
 
+        // Set the fullscreen toggle state based on the current fullscreen mode
+        fullscreenToggle.isOn = Screen.fullScreen;
+
         // Add listener for when the user changes the selected resolution
         resolutionDropdown.onValueChanged.AddListener(OnResolutionChanged);
+
+        // Add listener for the fullscreen toggle
+        fullscreenToggle.onValueChanged.AddListener(OnFullscreenChanged);
     }
 
     void OnResolutionChanged(int index)
@@ -58,7 +64,7 @@ public class ResolutionManager : MonoBehaviour
     void SetResolution(int width, int height)
     {
         // Set the selected resolution
-        Screen.SetResolution(width, height, Screen.fullScreenMode);
+        Screen.SetResolution(width, height, Screen.fullScreen);
     }
 
     int GetDefaultResolutionIndex()
@@ -74,12 +80,9 @@ public class ResolutionManager : MonoBehaviour
         return 0; // Default to the first resolution if not found
     }
 
-    public void SetFullScreen(bool FullScreen)
+    void OnFullscreenChanged(bool isFullscreen)
     {
-
-        Screen.fullScreen = FullScreen;
-
+        // Update fullscreen setting based on toggle value
+        Screen.fullScreen = isFullscreen;
     }
 }
-
-

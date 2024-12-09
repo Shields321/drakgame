@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7871164424653142311}
   - component: {fileID: 3380458158598384809}
   - component: {fileID: 2420364800614954543}
+  - component: {fileID: 3486200546298301574}
   m_Layer: 0
   m_Name: DragonBeam
   m_TagString: Books
@@ -28,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 4663850305930155205}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.029, y: 0.037, z: 0}
+  m_LocalScale: {x: 1.5524, y: 1.1563, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 520e264a95bd8f345a8dfe7dfe45fe0f, type: 3}
+  m_Sprite: {fileID: 743010540, guid: 60a934a65fe4d1d40af59beaa3f9b47f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -122,7 +123,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.34, y: 0.84}
+    oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 0.34, y: 0.84}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -144,3 +145,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
+--- !u!95 &3486200546298301574
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663850305930155205}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9e6f9835d64ca13459b8cdaa1d43d0ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

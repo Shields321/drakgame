@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Beam of the Majin
   m_EditorClassIdentifier: 
   Title: Beam of the Majin
-  Description: Aim and Fire a straight beam towards the enemy. Has 6 Levels. Scales
-    by DMG and Size.
+  Description: Shoot out a straight beam of magic towards enemies, dealing damage
+    to any enemies it hits. Aim the beam with your mouse.
   Lore: The Majin, a race of intelligent monsters, are one of the many races found
     in Drakoria. As one of the strongest, these demonic people specialize in magic.
     While most Majin are indifferent or friendly to the other races inhabiting the
