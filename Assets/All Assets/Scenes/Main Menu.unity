@@ -1533,7 +1533,7 @@ MonoBehaviour:
     LMB
     - Click Button
 
-    ESC - Pause Game'
+    ESC - Pause / bACK'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
   m_sharedMaterial: {fileID: 134670495715778187, guid: 82e446ec74fad97428bca7dc0689a391, type: 2}
