@@ -69,7 +69,7 @@ public class DefenceAbilities : MonoBehaviour
         }
         if (the_Demons_Enchantment.isActive && !abilityupdate[2])
         {
-            UpdateDefUI("The Demon's Enchantment");
+            UpdateDefUI("The Daemon's Enchantment");
             abilityupdate[2] = true;
         }
         if (the_Will_Of_A_Creator.isActive && !abilityupdate[3])

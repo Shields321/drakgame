@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Apollos_Prophecy
   m_EditorClassIdentifier: 
   Title: Apollo's Prophecy
-  Description: Increase the amount of EXP gained when picking up an EXP Gem
+  Description: Increase the amount of EXP gained when picking up an EXP Gem. Cannot
+    be upgraded.
   Lore: A divine gift given from the god Apollo, conveniently sharing its name with
     the god from your original world. While the divine are known not to meddle in
     the affairs of Drakoria, Apollo is notorious for being the exception, breaking

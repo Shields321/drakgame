@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: The Demon's Enchantment
   Description: Call upon the demon race and activate the enchanment to increase your
-    strength, dealing increased damage to any enemies far away.
+    strength to deal increased damage to any enemies far away. Can be upgraded three
+    times to increase damage.
   Lore: A forbidden pact sealed between the user and the terrifying high demons under
     the blood moon. The Daemon's are a second evolution of regular demonfolk, brought
     upon by their immense strength and power, causing them to rise up the ranks to

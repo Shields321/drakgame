@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: The Akashic Records
   m_EditorClassIdentifier: 
   Title: The Akashic Records
-  Description: Summon books to rotate around you, dealing damage to any enemies that
-    come into contact with it.
+  Description: Summon books to rotate around you to deal damage to any enemies that
+    come into contact with it. Can be upgraded six times to increase damage and book
+    amount.
   Lore: Housing all the events from the past, present, and near future, the Akashic
     Records of Drakoria are not as rare as one would assume. Standard issue in learning
     institutions, they're quite accessible and pillars of the highest levels of education

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Dryad's Aura
   m_EditorClassIdentifier: 
   Title: Dryad's Aura
-  Description: Summon a protective circle around you, dealing damage over time to
-    enemies within the circle.
+  Description: Summon a protective circle around you to deal damage over time to
+    enemies within the circle. Can be upgraded six times to increase size.
   Lore: Representations of Mother Nature itself, the Dryads are a mystical and revered
     race in Drakoria. These tree fairies, worshiped by many, act as wardens for the
     many lush forests and pockets of nature that are scattered throughout Drakoria.

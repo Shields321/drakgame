@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Magic Boomerang
   m_EditorClassIdentifier: 
   Title: Magic Boomerang
-  Description: Shoot out a projectile. The projectile travels outwards for a certain
-    distance before returning to you, dealing damage to any enemies hit.
+  Description: hoot out a projectile. The projectile travels outwards for a certain
+    distance before returning to you to deal damage to any enemies hit. Can be upgraded
+    six times to increase damage.
   Lore: When learning magic, instructors always mentioned that in order to feel magic,
     activate magic, and conjure it in reality, you had to picture what you wanted
     vividly. If you wanted to cast a type of explosion magic, you had to envision

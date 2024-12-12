@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Thorns of the Great Forest
   Description: Wrap yourself in deadly thorns. Any enemies that hit you also gets
-    damage dealt to them.
+    damage dealt to them. Cannot be upgraded.
   Lore: Tied to the untamed wilds of Drakoria, the Great Forest stretches across
     the vast lands. Drawing power from the sentient, thorn-covered trees that protect
     the heart of the forest, those skilled enough can wrap themselves around these

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Elven_Holy_Garments
   m_EditorClassIdentifier: 
   Title: Elven Holy Garments
-  Description: Don the garments forged by the secret Elven race, slightly decreasing
-    all damage taken
+  Description: Don the garments forged by the secret Elven race to slightly decreasing
+    all damage taken. Cannot be upgraded.
   Lore: Forged in the sanctum of the Elven High Priests, these holy garments are
     revered as a sacred relic, imbued with divine protection from the spirits. Its
     power is only matched by its rarity. The Elven race is extremely secluded and

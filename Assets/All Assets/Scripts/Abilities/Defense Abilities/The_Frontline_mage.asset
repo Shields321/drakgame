@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: The_Frontline_mage
   m_EditorClassIdentifier: 
   Title: The Frontline Mage
-  Description: Re-enact the actions of one of the most famous mages in Drakoria,
-    doubling your HP and Movement Speed
+  Description: Emulate the actions of one of the most famous mages in Drakoria to
+    double your HP and Movement Speed. Cannot be upgraded.
   Lore: A legendary technique passed down by one of the greatest mages in Drakoria's
     history. Some called him brave, others called him insane. Despite the mage's
     immense power and offensive magic abilities, they were always known as a mid-range

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Tentacles of the Abyss
   m_EditorClassIdentifier: 
   Title: Tentacles of the Abyss
-  Description: Channel tentacles out from the abyss, dealing damage to any enemies
-    within its grasp.
+  Description: Channel tentacles out from the abyss to deal damage to any enemies
+    within its grasp. Can be upgraded six times to increase damage and size.
   Lore: Dark magic is powerful, rare, and forbidden for most. The sheer power and
     corruptive nature of this element has led to many conflicts in the past, creating
     villainous characters time after time. The masters of dark magic, however, are

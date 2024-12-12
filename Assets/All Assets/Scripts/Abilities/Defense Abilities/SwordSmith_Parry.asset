@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: SwordSmith_Parry
   m_EditorClassIdentifier: 
   Title: Swordsmith's Parry
-  Description: When being hit by an enemy, there is a small chance that the attack
-    does zero damage
+  Description: There is a small chance that an enemy attack does zero damage. Can
+    be upgraded six times to increase the chance of negating an attack.
   Lore: A legendary technique passed down through generations of master swordsmiths
     and duelists. Said to have been mastered by the first legendary Swordsmith, Valdran.
     Sought after by all who wield a sword, the parry was a move once thought to be

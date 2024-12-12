@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Dragon's Breath
   m_EditorClassIdentifier: 
   Title: Dragon's Breath
-  Description: Unleash a powerful beam in random directions, dealing damage to enemies
-    it hits
+  Description: Unleash a powerful beam in random directions to deal damage to enemies
+    it hits. Can be upgraded three times to increase beam amount.
   Lore: Originating from the legendary Dragons themselves, Dragon's Breath is a powerful
     magic spell that mimics their signature move. Ancient and mighty, the dragons
     once ruled the skies of Drakoria, but now they are few and far between. Their

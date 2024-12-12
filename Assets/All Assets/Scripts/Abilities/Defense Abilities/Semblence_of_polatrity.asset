@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Semblence_of_polatrity
   m_EditorClassIdentifier: 
   Title: Semblance of Polarity
-  Description: Gain control over magnetism, increasing the range that you are able
-    to pick up EXP Gems
+  Description: Gain control over magnetism to increase the range that you are able
+    to pick up EXP Gems. Cannot be upgraded.
   Lore: A rare and mystical power rooted in the fundamental forces of the world.
     Semblances are inherent abilities that all people develop, with their skills
     being tailor-made for their professions, hobbies, or interests. The Semblance
