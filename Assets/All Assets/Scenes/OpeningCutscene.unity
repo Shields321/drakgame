@@ -152,20 +152,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMenuBGM: {fileID: 0}
-  buttonClickSFX: {fileID: 0}
-  buttonHoverSFX: {fileID: 0}
-  gameStartSFX: {fileID: 0}
+  buttonClickSFX: {fileID: 8300000, guid: 6b0aff9174e8be74d9560fefa486213c, type: 3}
+  buttonHoverSFX: {fileID: 8300000, guid: 212defa1b966c7143a611ca05687dcc9, type: 3}
+  gameStartSFX: {fileID: 8300000, guid: dbc1927689901ad429d9253df5998108, type: 3}
   openingCutsceneBGM: {fileID: 8300000, guid: 6cfaf84d88f3cd5478814525d03b0179, type: 3}
-  gameplayBGM: {fileID: 0}
-  pausedSFX: {fileID: 0}
-  gameOverSFX: {fileID: 0}
-  floorClearedSFX: {fileID: 0}
-  upgradeMenuSFX: {fileID: 0}
-  playerFootstepSFX: {fileID: 0}
-  playerHitSFX: {fileID: 0}
-  playerDeathSFX: {fileID: 0}
-  EnemyHitSFX: {fileID: 0}
-  EnemyDeathSFX: {fileID: 0}
+  gameplayBGM: {fileID: 8300000, guid: aa23e174a6ea3054a81d8298d88835dd, type: 3}
+  pausedSFX: {fileID: 8300000, guid: ec36da00c95d55b4ebd880d665ab4214, type: 3}
+  gameOverSFX: {fileID: 8300000, guid: 95b6b724bc0db1e4c8aa95f65e75f6af, type: 3}
+  floorClearedSFX: {fileID: 8300000, guid: 67dba978b04d1774baadd5114e143221, type: 3}
+  upgradeMenuSFX: {fileID: 8300000, guid: e6d0bfa704e58c646b259ab1cde18556, type: 3}
+  playerFootstepSFX: {fileID: 8300000, guid: 42395029d09bc304397158d7de169065, type: 3}
+  playerHitSFX: {fileID: 8300000, guid: 970015cb76779e549977750702441137, type: 3}
+  playerDeathSFX: {fileID: 8300000, guid: 9e44ea3ca504f6d49b55fa74ac85cdfc, type: 3}
+  EnemyHitSFX: {fileID: 8300000, guid: a67f8120659592a41866b27e754e13a5, type: 3}
+  EnemyDeathSFX: {fileID: 8300000, guid: 3062d727a11abe0438b2019d6a9d26ff, type: 3}
   bgmSlider: {fileID: 0}
   sfxSlider: {fileID: 0}
 --- !u!4 &303684150

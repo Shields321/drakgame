@@ -116,8 +116,9 @@ public class MenuButtonController : MonoBehaviour
     {
         if (Menu == false)
         {
-            AudioManagerTwo.instance.UnPauseBGM();
+            
             SceneManager.LoadScene("Main Menu");
+            AudioManagerTwo.instance.PlayMainMenuBGM();
 
         }
         else
@@ -130,12 +131,12 @@ public class MenuButtonController : MonoBehaviour
 
     public void Escape()
 	{
+        AudioManagerTwo.instance.PlayPausedSFX();
         CurntButton = PauseButton;
 		EventSystem.current.SetSelectedGameObject(CurntButton);
 		MaineMenuObject.SetActive(false);
 		Pause = true;
 		PauseObject.SetActive(true);
-        AudioManagerTwo.instance.PlayPausedSFX();
 
     }
 
