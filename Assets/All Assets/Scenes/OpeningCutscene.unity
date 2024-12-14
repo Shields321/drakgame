@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 317352942}
   - component: {fileID: 317352941}
   m_Layer: 5
-  m_Name: Sentence2
+  m_Name: Sentence 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 929608962}
   - component: {fileID: 929608961}
   m_Layer: 5
-  m_Name: Sentence5
+  m_Name: Sentence 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 929882967}
   - component: {fileID: 929882966}
   m_Layer: 5
-  m_Name: Sentence6
+  m_Name: Sentence 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -787,7 +787,7 @@ GameObject:
   - component: {fileID: 1120689837}
   - component: {fileID: 1120689836}
   m_Layer: 5
-  m_Name: Sentence3
+  m_Name: Sentence 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 1457499038}
   - component: {fileID: 1457499037}
   m_Layer: 5
-  m_Name: Sentence4
+  m_Name: Sentence 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1217,7 +1217,7 @@ GameObject:
   - component: {fileID: 1624775686}
   - component: {fileID: 1624775685}
   m_Layer: 5
-  m_Name: Sentence1
+  m_Name: Sentence 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1352,7 +1352,7 @@ GameObject:
   - component: {fileID: 1655366060}
   - component: {fileID: 1655366059}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Background Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
