@@ -543,7 +543,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: -54}
+  m_AnchoredPosition: {x: -100, y: -68}
   m_SizeDelta: {x: 7741.569, y: 4075.162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &132063980
@@ -590,7 +590,8 @@ MonoBehaviour:
     Holy Spell Effect Pack 3\" by BDragon1727   (https://bdragon1727.itch.io/pixel-holy-spell-effect-32x32-pack-3)\n\"Free
     Effect and Bullet 16x16\" by BDragon1727   (https://bdragon1727.itch.io/free-effect-and-bullet-16x16)\r\n\"Pixel
     Art Gems\" by ma9ici4n   (https://ma9ici4n.itch.io/gems)\r\n\u201CBebas Neue\u201D
-    by Dharma Type: (https://www.dafont.com/bebas-neue.font)"
+    by Dharma Type: (https://www.dafont.com/bebas-neue.font)\n\"Tilemap to PNG\"
+    by leocub58   (https://github.com/leocub58/Tilemap-to-PNG-Unity)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ff8c0da706c02f4cac0854fd2856fc2, type: 2}
   m_sharedMaterial: {fileID: -2856368929473409621, guid: 8ff8c0da706c02f4cac0854fd2856fc2, type: 2}
@@ -617,8 +618,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 120
-  m_fontSizeBase: 120
+  m_fontSize: 115
+  m_fontSizeBase: 115
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4085,9 +4086,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7645007113186534644, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: AudioObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645007113186534644, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: CreditsObject
       value: 
       objectReference: {fileID: 1722884464}
+    - target: {fileID: 7645007113186534644, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
+      propertyPath: GraphicsObject
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7645007113186534645, guid: d2dc97bf11274b7468aad7923c44c5e7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
